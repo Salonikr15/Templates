@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Resume - Last Name</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Custom scrollbar for skill language bars */
+    .skill-bar::-webkit-scrollbar {
+      height: 0.5rem;
+    }
+    .skill-bar::-webkit-scrollbar-thumb {
+      background-color: #2563eb;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-800 font-sans max-w-4xl mx-auto p-6">
+  <header class="flex flex-col sm:flex-row sm:justify-between sm:items-center mb-6">
+    <div class="flex items-center space-x-5 sm:space-x-8">
+      <img 
+        src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/ecc61c07-e114-44c0-9183-40a8b419e298.png" 
+        alt="Professional headshot of a man with black hair wearing a dark top in soft outdoor background" 
+        class="rounded-full w-24 h-24 object-cover shadow-lg" 
+        onerror="this.onerror=null;this.src='https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/88ce485a-02a1-4bfd-b715-fe9d71e25755.png';"
+      />
+      <div>
+        <h1 class="text-3xl font-extrabold leading-tight">Name <span class="uppercase">LAST NAME</span></h1>
+        <p class="italic text-gray-600 text-sm mt-0.5">"Curious, motivated and determined"</p>
+      </div>
+    </div>
+    <div class="mt-6 sm:mt-0 flex flex-col space-y-3 text-sm text-gray-700">
+      <div class="flex items-center space-x-2">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true" focusable="false">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M16 12H8m8 0a4 4 0 11-8 0 4 4 0 018 0zm4-3V7a4 4 0 00-8 0v2" />
+        </svg>
+        <span>Address: City, Country</span>
+      </div>
+      <div class="flex items-center space-x-2">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true" focusable="false">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M16 12c0-1.11-2-2-4-2s-4 .89-4 2a4 4 0 108 0zM2 8v8a2 2 0 002 2h16a2 2 0 002-2V8" />
+        </svg>
+        <a href="mailto:email@example.com" class="hover:underline">email@example.com</a>
+      </div>
+      <div class="flex items-center space-x-2">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="h-5 w-5 text-blue-600" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.762 2.239 5 5 5h14c2.761 0 5-2.238 5-5v-14c0-2.761-2.239-5-5-5zm-11 16h-3v-8h3v8zm-1.5-9.268c-.966 0-1.75-.78-1.75-1.732 0-.955.784-1.732 1.75-1.732s1.75.777 1.75 1.732c0 .952-.784 1.732-1.75 1.732zm13.5 9.268h-3v-4.278c0-1.02-.365-1.718-1.272-1.718-.694 0-1.107.466-1.291.916-.066.16-.083.383-.083.607v4.473h-3s.04-7.26 0-8h3v1.133c.398-.616 1.109-1.49 2.703-1.49 1.974 0 3.459 1.29 3.459 4.064v4.293z"/>
+        </svg>
+        <a href="https://linkedin.com/in/username" target="_blank" rel="noopener noreferrer" class="hover:underline">LinkedIn Profile</a>
+      </div>
+    </div>
+  </header>
+
+  <section>
+    <h2 class="font-semibold text-lg border-b border-gray-300 pb-1 mb-3">About me</h2>
+    <p class="text-gray-700 mb-6">
+      Duis augue magna, bibendum at nunc id, gravida ultricies tellus. Pellentesque, efficitur ante id, dictum arcu nulla ante gravida ultricies.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec varius mauris.
+      Duis augue magna, bibendum at nunc id, gravida ultricies tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Aliquam nec varius mauris.
+    </p>
+  </section>
+
+  <section>
+    <h2 class="font-semibold text-lg border-b border-gray-300 pb-1 mb-3">Skills</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-6">
+      <ul class="list-disc list-inside space-y-1 text-gray-800 col-span-1">
+        <li>Creation and management of my blog</li>
+        <li>Responsibility</li>
+        <li>Career Orientated</li>
+      </ul>
+
+      <div class="col-span-1 flex flex-col space-y-4">
+        <div>
+          <div class="flex justify-between mb-1 text-sm font-medium text-gray-600">
+            <span>English</span>
+            <span>90%</span>
+          </div>
+          <div class="w-full bg-gray-300 rounded h-3">
+            <div class="bg-blue-600 h-3 rounded" style="width: 90%;"></div>
+          </div>
+        </div>
+
+        <div>
+          <div class="flex justify-between mb-1 text-sm font-medium text-gray-600">
+            <span>Spanish</span>
+            <span>70%</span>
+          </div>
+          <div class="w-full bg-gray-300 rounded h-3">
+            <div class="bg-blue-600 h-3 rounded" style="width: 70%;"></div>
+          </div>
+        </div>
+
+        <div>
+          <div class="flex justify-between mb-1 text-sm font-medium text-gray-600">
+            <span>German</span>
+            <span>30%</span>
+          </div>
+          <div class="w-full bg-gray-300 rounded h-3">
+            <div class="bg-blue-600 h-3 rounded" style="width: 30%;"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-span-1 text-gray-700 text-sm">
+        <p class="font-semibold mb-1">Logiciels maîtrisés :</p>
+        <p>Excel, Word, PowerPoint, Outlook, Photoshop, Illustrator, Wordpress.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="font-semibold text-lg border-b border-gray-300 pb-1 mb-3">Education</h2>
+    <div class="space-y-6 text-gray-800">
+      <div>
+        <p class="text-sm text-gray-600">20XX - 20XX | Los Angeles, USA</p>
+        <h3 class="font-semibold">Class of 2019</h3>
+        <p>Heritage High School</p>
+      </div>
+      <div>
+        <p class="text-sm text-gray-600">20XX - 20XX | Vancouver, Canada</p>
+        <h3 class="font-semibold">Introduction to Photography</h3>
+        <p>Film School</p>
+      </div>
+      <div>
+        <p class="text-sm text-gray-600">20XX - 20XX | City, Country</p>
+        <h3 class="font-semibold">DIPLOMA XXXXXXXXXXXXXXXXXX XXXXXXXXXXXX XXXXXXXXXXXX</h3>
+        <p>School</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="font-semibold text-lg border-b border-gray-300 pb-1 mt-8 mb-3">Volunteer Experience</h2>
+    <div class="space-y-6 text-gray-800">
+      <div>
+        <p class="text-sm text-gray-600">Nov. 20XX – Jul. 20XX | City, Country</p>
+        <h3 class="font-semibold">Charity Hospital</h3>
+        <p class="italic mb-2">Information Desk Assistant</p>
+        <ul class="list-disc list-inside space-y-1 text-gray-700">
+          <li>Donec turpis mauris, auctor vitae sollicitudin in, elementum efficitur tellus.</li>
+          <li>Aenean nec turpis tortor. Ut placerat varius viverra vestibulum eu dictum purus.</li>
+          <li>Ut lacinia commodo erat id vulputate. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</li>
+        </ul>
+      </div>
+
+      <div>
+        <p class="text-sm text-gray-600">Nov. 20XX – Jul. 20XX | City, Country</p>
+        <h3 class="font-semibold">Summer Kids Camp</h3>
+        <p class="italic mb-2">Volunteer</p>
+        <ul class="list-disc list-inside space-y-1 text-gray-700">
+          <li>Donec turpis mauris, auctor vitae sollicitudin in, elementum efficitur tellus.</li>
+          <li>Aenean nec turpis tortor. Ut placerat varius viverra vestibulum eu dictum purus.</li>
+          <li>Ut lacinia commodo erat id vulputate. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="font-semibold text-lg border-b border-gray-300 pb-1 mt-8 mb-3">Interests</h2>
+    <ul class="list-disc list-inside space-y-2 text-gray-700">
+      <li>Travel : Europe (France, Iceland & Norway), Asia (China, Japan, Thailand).</li>
+      <li>Sports : Swimming, I’d been in national competences.</li>
+      <li>Instagram: +20k followers.</li>
+    </ul>
+  </section>
+</body>
+</html>

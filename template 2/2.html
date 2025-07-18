@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Richard Sanchez Resume</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Custom scrollbar hidden for smaller profile photo */
+    .scrollbar-hide::-webkit-scrollbar {
+      display: none;
+    }
+    .scrollbar-hide {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+  <main class="max-w-4xl mx-auto my-10 bg-white shadow-lg rounded-md p-8 relative overflow-hidden">
+    <!-- Decorative shapes behind -->
+    <div class="absolute -top-20 -left-20 w-52 h-52 rounded-full border-8 border-blue-900 opacity-20 hidden md:block"></div>
+    <div class="absolute -bottom-20 -right-20 w-52 h-52 rounded-full border-8 border-gray-300 opacity-30 hidden md:block"></div>
+
+    <div class="flex flex-col md:flex-row gap-10">
+      <!-- Left Sidebar -->
+      <aside class="md:w-1/3 flex flex-col items-center md:items-start">
+        <!-- Profile Circle Image & Name -->
+        <div class="border-8 border-blue-900 rounded-full p-1 mb-6">
+          <img 
+            src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/db481ab2-c861-455d-8678-e085e4d53552.png" 
+            alt="Portrait of Richard Sanchez, a professional man wearing a navy suit and tie looking sideways with neutral background" 
+            class="w-36 h-36 object-cover rounded-full"
+            loading="lazy"
+            onerror="this.onerror=null;this.src='https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/76a27900-c532-4147-8fcc-d94b3f1cc405.png'"
+          />
+        </div>
+        <h1 class="text-3xl font-extrabold text-blue-900 leading-tight mb-1 text-center md:text-left">
+          RICHARD<br />SANCHEZ
+        </h1>
+        <p class="text-base font-semibold text-gray-600 mb-8 text-center md:text-left">Product Designer</p>
+
+        <!-- About Me -->
+        <section class="w-full mb-8">
+          <h2 class="text-sm font-semibold text-white uppercase bg-blue-900 mb-2 px-4 py-1 rounded">About Me</h2>
+          <p class="text-gray-600 text-sm px-2 md:px-0 leading-relaxed">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet quam rhoncus, egestas dui eget, malesuada justo. Ut aliquam augue.
+          </p>
+        </section>
+
+        <!-- Contact Info -->
+        <section class="w-full mb-8 text-gray-700 space-y-3 text-sm">
+          <div class="flex items-center gap-3 px-2 md:px-0">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-900 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2v-5l-7-4.67L5 12v5a2 2 0 002 2z" />
+            </svg>
+            <span>hello@reallygreatsite.com</span>
+          </div>
+          <div class="flex items-center gap-3 px-2 md:px-0">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-900 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h12M9 3v6m-6 1a9 9 0 009 9h6" />
+            </svg>
+            <span>+123-456-7890</span>
+          </div>
+          <div class="flex items-center gap-3 px-2 md:px-0">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-900 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 9V7a2 2 0 00-2-2H7a2 2 0 00-2 2v2m12 0h1a2 2 0 012 2v7a2 2 0 01-2 2h-1M7 9v2m0 0v5m0-5h6" />
+            </svg>
+            <span>123 Anywhere St., Any City</span>
+          </div>
+        </section>
+
+        <!-- Language Section -->
+        <section class="w-full mb-8">
+          <h2 class="text-sm font-semibold text-white uppercase bg-blue-900 mb-3 px-4 py-1 rounded">Language</h2>
+          <ul class="list-disc list-inside text-gray-700 text-sm space-y-1">
+            <li>English</li>
+            <li>Germany (basic)</li>
+            <li>Spain (basic)</li>
+          </ul>
+        </section>
+
+        <!-- Expertise Section -->
+        <section class="w-full mb-8">
+          <h2 class="text-sm font-semibold text-white uppercase bg-blue-900 mb-3 px-4 py-1 rounded">Expertise</h2>
+          <ul class="list-disc list-inside text-gray-700 text-sm space-y-1">
+            <li>Management Skills</li>
+            <li>Creativity</li>
+            <li>Digital Marketing</li>
+            <li>Negotiation</li>
+            <li>Critical Thinking</li>
+            <li>Leadership</li>
+          </ul>
+        </section>
+      </aside>
+
+      <!-- Right Main Content -->
+      <section class="md:w-2/3 flex flex-col justify-start space-y-10">
+        <!-- Experience Section -->
+        <section>
+          <h2 class="text-sm font-semibold text-white uppercase bg-blue-900 mb-5 px-6 py-1 rounded w-max">Experience</h2>
+          <article class="mb-6">
+            <h3 class="text-lg font-bold text-blue-900">Studio Showdre</h3>
+            <p class="italic text-sm text-gray-600">Canberra - Australia</p>
+            <p class="italic text-sm font-semibold text-gray-600 mb-2">2020 - 2022</p>
+            <p class="text-gray-700 leading-relaxed text-sm">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet quam rhoncus, egestas dui eget, malesuada justo. Ut aliquam augue.
+            </p>
+          </article>
+          <article class="mb-6">
+            <h3 class="text-lg font-bold text-blue-900">Elestown Cor.</h3>
+            <p class="italic text-sm text-gray-600">Kota Baru - Singapore</p>
+            <p class="italic text-sm font-semibold text-gray-600 mb-2">2016 - 2020</p>
+            <p class="text-gray-700 leading-relaxed text-sm">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet quam rhoncus, egestas dui eget, malesuada justo. Ut aliquam augue.
+            </p>
+          </article>
+          <article>
+            <h3 class="text-lg font-bold text-blue-900">Studio Showdre</h3>
+            <p class="italic text-sm text-gray-600">Sydney - Australia</p>
+            <p class="italic text-sm font-semibold text-gray-600 mb-2">2010 - 2015</p>
+            <p class="text-gray-700 leading-relaxed text-sm">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet quam rhoncus, egestas dui eget, malesuada justo. Ut aliquam augue.
+            </p>
+          </article>
+        </section>
+
+        <!-- Education Section -->
+        <section>
+          <h2 class="text-sm font-semibold text-white uppercase bg-blue-900 mb-5 px-6 py-1 rounded w-max">Education</h2>
+          <article class="mb-6">
+            <h3 class="text-lg font-bold text-blue-900">Borcelle University</h3>
+            <p class="italic text-sm text-gray-600">Bachelor of Business Management</p>
+            <p class="italic text-sm font-semibold text-gray-600">2014 - 2023</p>
+          </article>
+          <article>
+            <h3 class="text-lg font-bold text-blue-900">Borcelle University</h3>
+            <p class="italic text-sm text-gray-600">Master of Business Management</p>
+            <p class="italic text-sm font-semibold text-gray-600">2014 - 2018</p>
+          </article>
+        </section>
+
+        <!-- Skills Summary Section -->
+        <section>
+          <h2 class="text-sm font-semibold text-white uppercase bg-blue-900 mb-5 px-6 py-1 rounded w-max">Skills Summary</h2>
+          <div class="space-y-6 w-full max-w-md">
+            <div>
+              <label for="design-process" class="block text-gray-700 font-semibold mb-1">Design Process</label>
+              <div class="w-full bg-gray-300 rounded-full h-4 dark:bg-gray-700">
+                <div class="bg-blue-900 h-4 rounded-full" style="width: 78%;"></div>
+              </div>
+              <p class="text-xs text-gray-600 mt-1 font-semibold">78%</p>
+            </div>
+            <div>
+              <label for="project-management" class="block text-gray-700 font-semibold mb-1">Project Management</label>
+              <div class="w-full bg-gray-300 rounded-full h-4 dark:bg-gray-700">
+                <div class="bg-blue-900 h-4 rounded-full" style="width: 81%;"></div>
+              </div>
+              <p class="text-xs text-gray-600 mt-1 font-semibold">81%</p>
+            </div>
+          </div>
+        </section>
+      </section>
+    </div>
+  </main>
+</body>
+</html>

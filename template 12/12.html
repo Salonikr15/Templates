@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>James Dol Resume</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Custom scrollbar style for language bars */
+    .scrollbar-hide::-webkit-scrollbar {
+      display: none;
+    }
+    .scrollbar-hide {
+      -ms-overflow-style: none; /* IE and Edge */
+      scrollbar-width: none; /* Firefox */
+    }
+  </style>
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+  <main class="max-w-6xl mx-auto bg-white shadow-lg rounded-lg overflow-hidden flex flex-col md:flex-row">
+    <!-- Left Sidebar -->
+    <section class="w-full md:w-1/3 bg-gradient-to-tr from-blue-900 via-blue-700 to-blue-600 p-8 flex flex-col items-center text-white">
+      <!-- Profile Picture -->
+      <div class="w-36 h-36 rounded-full border-4 border-white overflow-hidden shadow-lg">
+        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/fe458b86-8747-4ef7-b27f-a6d15ee3c4a6.png" alt="Headshot of a smiling man with brown hair in casual photo portrait" class="object-cover w-full h-full" onerror="this.onerror=null;this.src='https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/3b65ce7e-d9c2-4b82-b121-2ca95b3102a8.png';"/>
+      </div>
+      <!-- Contact Info -->
+      <div class="mt-8 w-full">
+        <h2 class="uppercase font-bold text-lg border-b border-white pb-2 mb-4">Contact</h2>
+        <ul class="space-y-2 text-sm">
+          <li class="flex items-center"><svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 8l7-5 7 5M5 10v6a2 2 0 002 2h10a2 2 0 002-2v-6"/></svg><span>+1 22 22 22 22</span></li>
+          <li class="flex items-center"><svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M16 12a4 4 0 11-8 0 4 4 0 018 0z"/><path d="M12 14v7"/></svg><span>surname.name@gmail.com</span></li>
+          <li class="flex items-center"><svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17.657 16.657L13 21.314l-4.657-4.657a8 8 0 1111.314 0z"/></svg><span>NY, USA</span></li>
+          <li class="flex items-center"><svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-8h3v8zm-1.5-9.725c-.966 0-1.75-.783-1.75-1.75s.784-1.75 1.75-1.75c.967 0 1.75.783 1.75 1.75s-.783 1.75-1.75 1.75zm13.5 9.725h-3v-4.5c0-1.072-.928-2-2-2s-2 .928-2 2v4.5h-3v-8h3v1.298c.675-.844 1.754-1.298 2.876-1.298 2.209 0 4 1.791 4 4v3z"/></svg><a href="https://linkedin.com/in/raphael-martin" target="_blank" rel="noopener noreferrer" class="underline hover:text-gray-300">linkedin.com/raphael-martin</a></li>
+        </ul>
+      </div>
+
+      <!-- Languages -->
+      <div class="mt-10 w-full">
+        <h2 class="uppercase font-bold text-lg border-b border-white pb-2 mb-4">Languages</h2>
+        <div class="space-y-4">
+          <div>
+            <p class="text-sm font-semibold mb-1">English</p>
+            <div class="w-full bg-blue-500 rounded-full h-3 overflow-hidden">
+              <div class="bg-white h-3 w-4/5"></div>
+            </div>
+          </div>
+          <div>
+            <p class="text-sm font-semibold mb-1">Spanish</p>
+            <div class="w-full bg-blue-500 rounded-full h-3 overflow-hidden">
+              <div class="bg-white h-3 w-3/5"></div>
+            </div>
+          </div>
+          <div>
+            <p class="text-sm font-semibold mb-1">French</p>
+            <div class="w-full bg-blue-500 rounded-full h-3 overflow-hidden">
+              <div class="bg-white h-3 w-1/3"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skills -->
+      <div class="mt-10 w-full">
+        <h2 class="uppercase font-bold text-lg border-b border-white pb-2 mb-4">Skills</h2>
+        <ul class="list-disc list-inside space-y-1 text-sm">
+          <li>Google Analytics</li>
+          <li>Facebook Insights</li>
+          <li>Wordpress</li>
+          <li>Strategic Planning</li>
+          <li>Team Leadership</li>
+          <li>Communication</li>
+          <li>Presentation</li>
+        </ul>
+      </div>
+
+      <!-- Interests -->
+      <div class="mt-10 w-full mb-10">
+        <h2 class="uppercase font-bold text-lg border-b border-white pb-2 mb-4">Interests</h2>
+        <ul class="list-disc list-inside space-y-1 text-sm">
+          <li>Digital Marketing Trends</li>
+          <li>Content Creation</li>
+          <li>Travel Photography</li>
+          <li>Hiking & Outdoor Activities</li>
+          <li>Tech Innovations</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Right Content Area -->
+    <section class="w-full md:w-2/3 p-10 bg-gray-50 text-gray-900">
+      <!-- Name & Title -->
+      <header class="mb-8">
+        <h1 class="text-4xl font-extrabold tracking-tight">James DOL</h1>
+        <p class="text-xl text-gray-600 uppercase tracking-wide font-semibold mt-1">Social Media Manager</p>
+      </header>
+
+      <!-- Profile Summary -->
+      <section class="mb-10">
+        <h2 class="border-b-2 border-gray-400 font-semibold text-lg mb-3 pb-1 uppercase">Profile Summary</h2>
+        <p class="leading-relaxed text-sm">
+          Highly motivated and results-driven Social Media Manager with a proven track record of driving engagement and brand growth.
+          Seeking a challenging position to leverage my expertise in content strategy, analytics, and community management to help organizations achieve their social media objectives.
+        </p>
+      </section>
+
+      <!-- Professional Experience -->
+      <section class="mb-10">
+        <h2 class="border-b-2 border-gray-400 font-semibold text-lg mb-4 pb-1 uppercase">Professional Experience</h2>
+
+        <div class="mb-6">
+          <h3 class="font-bold text-md">Social Media Manager</h3>
+          <p class="italic text-sm mb-2">TechXpert Inc., NY | 20XX – 20XX</p>
+          <ul class="list-disc list-inside space-y-2 text-sm">
+            <li>Developed and executed comprehensive social media strategies resulting in a 30% increase in organic reach and a 25% boost in website traffic within six months.</li>
+            <li>Managed a team of three social media coordinators, providing guidance and overseeing content creation, scheduling, and performance analytics.</li>
+            <li>Implemented influencer partnerships, resulting in a 15% increase in Instagram followers and a 20% growth in product sales.</li>
+          </ul>
+        </div>
+
+        <div class="mb-6">
+          <h3 class="font-bold text-md">Content Marketing Specialist</h3>
+          <p class="italic text-sm mb-2">DigitalDynamics, NY | 20XX – 20XX</p>
+          <ul class="list-disc list-inside space-y-2 text-sm">
+            <li>Produced and curated engaging content across multiple platforms, increasing client’s social media following by 49% and driving 50% more website conversions.</li>
+            <li>Conducted in-depth market research and competitor analysis to identify trends and opportunities for content creation.</li>
+            <li>Implemented influencer partnerships, resulting in a 15% increase in following.</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="font-bold text-md">Social Media Coordinator (Intern)</h3>
+          <p class="italic text-sm mb-2">SocialBee Startups, NY | 20XX</p>
+          <ul class="list-disc list-inside space-y-2 text-sm">
+            <li>Assisted in the management of daily social media activities, including content creation, posting, and engagement.</li>
+            <li>Developed and executed a user-generated content campaign that led to a 20% increase in user-generated content submissions.</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Education -->
+      <section>
+        <h2 class="border-b-2 border-gray-400 font-semibold text-lg mb-4 pb-1 uppercase">Education</h2>
+
+        <div class="mb-6">
+          <h3 class="font-bold text-md">Master of Business Administration (MBA)</h3>
+          <p class="italic text-sm">University of California, Berkley | 20XX – 20XX</p>
+        </div>
+
+        <div>
+          <h3 class="font-bold text-md">Bachelor of Arts in Communications</h3>
+          <p class="italic text-sm">NYU, NY | 20XX – 20XX</p>
+        </div>
+      </section>
+    </section>
+  </main>
+</body>
+</html>

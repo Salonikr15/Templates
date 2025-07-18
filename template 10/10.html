@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Resume - Surname Name</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Custom shapes background using clip-path */
+    .shape-1 {
+      clip-path: polygon(0 0, 100% 0, 75% 100%, 0% 100%);
+      background-color: #fedcd2;
+    }
+
+    .shape-2 {
+      clip-path: polygon(50% 0, 100% 0, 100% 100%, 25% 100%);
+      background-color: #f3f2f1;
+    }
+
+    .shape-3 {
+      clip-path: polygon(0 10%, 40% 0, 75% 85%, 40% 100%);
+      background-color: #e6e7e6;
+      opacity: 0.4;
+    }
+  </style>
+</head>
+
+<body class="bg-white text-slate-900 antialiased font-sans">
+  <main class="max-w-5xl mx-auto p-6 md:p-12 relative min-h-screen">
+    <!-- Left shape and content container -->
+    <div class="absolute top-0 left-0 w-3/5 h-full shape-1 hidden md:block"></div>
+
+    <!-- Right shape background top -->
+    <div class="absolute top-0 right-0 w-2/5 h-64 shape-2 hidden md:block"></div>
+
+    <!-- Left shape lighter shape behind bottom-left -->
+    <div class="absolute bottom-0 left-0 w-2/5 h-3/5 shape-3 hidden md:block"></div>
+
+    <section class="relative z-10 flex flex-col md:flex-row gap-12 md:gap-16">
+      <!-- Left column -->
+      <aside class="w-full md:w-2/5 flex flex-col items-center md:items-start text-center md:text-left">
+        <!-- Circular photo -->
+        <div class="w-48 h-48 rounded-full overflow-hidden border-8 border-white shadow-lg shadow-pink-200">
+          <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/8f3af6a2-0e4f-4193-bf5d-dc5f4847dacb.png" alt="Woman with glasses and short dark hair, wearing a brown collared shirt in a library background" class="w-full h-full object-cover object-top" />
+        </div>
+
+        <!-- Contact info -->
+        <div class="mt-10 space-y-3">
+          <h2 class="text-xl font-bold tracking-wide uppercase">Contact</h2>
+          <ul class="text-sm space-y-1 text-gray-700">
+            <li class="flex items-center gap-2">
+              <svg class="w-4 h-4 inline-block text-pink-400" fill="none" stroke="currentColor" stroke-width="2"
+                viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.82 19.82 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.82 19.82 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 13 13 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 13 13 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+              </svg>
+              +1 222 222 22
+            </li>
+            <li class="flex items-center gap-2">
+              <svg class="w-4 h-4 inline-block text-pink-400" fill="none" stroke="currentColor" stroke-width="2"
+                viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16v16H4z" />
+                <path d="M22 10v4l-10 6-10-6v-4l10-6z" />
+              </svg>
+              name@gmail.com
+            </li>
+            <li class="flex items-center gap-2">
+              <svg class="w-4 h-4 inline-block text-pink-400" fill="none" stroke="currentColor" stroke-width="2"
+                viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 10c0 6-9 12-9 12S3 16 3 10a9 9 0 1 1 18 0z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+              NY, US
+            </li>
+          </ul>
+        </div>
+
+        <!-- Languages -->
+        <div class="mt-12 w-full max-w-xs bg-white bg-opacity-80 rounded-md p-6 shadow-lg">
+          <h3 class="font-bold text-lg mb-3 border-b-2 border-pink-300 pb-1 uppercase tracking-wide">Languages</h3>
+          <ul class="space-y-2 text-gray-700 text-sm">
+            <li><span class="font-semibold">English:</span> Native</li>
+            <li><span class="font-semibold">Spanish:</span> Intermediate</li>
+            <li><span class="font-semibold">French:</span> Beginner</li>
+          </ul>
+        </div>
+
+        <!-- Skills -->
+        <div class="mt-12 w-full max-w-xs bg-white bg-opacity-90 rounded-md p-6 shadow-lg">
+          <h3 class="font-bold text-lg mb-3 border-b-2 border-pink-300 pb-1 uppercase tracking-wide">Skills</h3>
+          <ul class="text-gray-800 text-sm leading-relaxed space-y-1 whitespace-pre-line">
+            Photoshop<br />
+            Illustrator<br />
+            InDesign<br />
+            Typography<br />
+            Branding<br />
+            Web & App design<br />
+            Image editing<br />
+            Video editing<br />
+            After Effects<br />
+            Communication<br />
+            Time management<br />
+            Meticulous<br />
+            Teamwork
+          </ul>
+        </div>
+      </aside>
+
+      <!-- Right column -->
+      <section class="w-full md:w-3/5 bg-white bg-opacity-90 rounded-lg p-8 shadow-lg flex flex-col justify-start gap-8">
+        <!-- Name header -->
+        <header class="mb-4">
+          <h1 class="text-4xl font-extrabold leading-tight uppercase tracking-wide text-slate-900">
+            SURNAME<br />NAME
+          </h1>
+        </header>
+
+        <!-- Profile Summary -->
+        <article>
+          <h2 class="font-bold text-xl mb-2 border-b-2 border-black pb-1">Profile Summary</h2>
+          <p class="text-gray-800 leading-relaxed text-sm">
+            A highly motivated and creative graphic designer with 3 years of experience in delivering visually appealing designs for various clients. Seeking a challenging position in a dynamic and innovative design agency to utilize my skills and expertise in creating compelling visual solutions.
+          </p>
+        </article>
+
+        <!-- Experiences -->
+        <article>
+          <h2 class="font-bold text-xl mb-3 border-b-2 border-black pb-1">Experiences</h2>
+
+          <div class="mb-6">
+            <h3 class="font-semibold text-lg mb-1">Senior Graphic Designer | <span class="italic font-normal">CreateNOW</span></h3>
+            <p class="text-xs mb-2 text-gray-600">20XX (NY, USA)</p>
+            <ul class="list-disc list-inside text-gray-800 text-sm space-y-1">
+              <li>Led a team of 3 designers to conceptualize and execute design projects.</li>
+              <li>Successfully managed multiple projects simultaneously, meeting tight deadlines.</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="font-semibold text-lg mb-1">Freelance Designer | <span class="italic font-normal">Self-employed</span></h3>
+            <p class="text-xs mb-2 text-gray-600">20XX (NY, USA)</p>
+            <ul class="list-disc list-inside text-gray-800 text-sm space-y-1">
+              <li>Independently handled design projects for various local businesses, such as creating logos and posters.</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- Education -->
+        <article>
+          <h2 class="font-bold text-xl mb-3 border-b-2 border-black pb-1">Education</h2>
+
+          <div class="mb-4">
+            <h3 class="font-semibold text-lg">Masters in design | NYU</h3>
+            <p class="text-xs text-gray-600">20XX (NY, USA)</p>
+          </div>
+
+          <div>
+            <h3 class="font-semibold text-lg">Bachelor of Fine Arts | NYU</h3>
+            <p class="text-xs text-gray-600">20XX (NY, USA)</p>
+          </div>
+        </article>
+      </section>
+    </section>
+  </main>
+</body>
+
+</html>
