@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Resume - Name Surname</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <style>
+    /* Custom circle for the profile photo background behind the picture */
+    .photo-bg {
+      width: 120px;
+      height: 160px;
+      background-color: #dbeafe; /* Light blue */
+      border-radius: 0 0 80px 80px;
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: -1;
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-800 font-sans antialiased">
+  <main class="max-w-5xl mx-auto p-6 md:p-12 flex flex-col md:flex-row border border-gray-200 rounded-lg shadow-lg">
+    <!-- Left Column -->
+    <aside class="w-full md:w-1/3 flex flex-col items-center relative mb-10 md:mb-0">
+      <div class="photo-bg"></div>
+      <div class="w-32 h-32 rounded-full overflow-hidden border-4 border-white shadow-lg relative z-10">
+        <img
+          src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/8ae62f3f-aadc-4758-a10c-3d58472355e1.png"
+          alt="Professional headshot, young man smiling wearing casual blue sweater with clean plain background"
+          class="object-cover w-full h-full"
+          onerror="this.onerror=null;this.src='https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/db37dc00-6a18-41ba-aff1-fb8c0a91c6ea.png';"
+        />
+      </div>
+      <div class="mt-8 w-full px-6">
+        <h1 class="text-3xl font-bold text-center mb-1">Name Surname</h1>
+        <p class="text-center text-indigo-700 text-lg font-medium mb-6">Educator</p>
+        <section class="mb-8">
+          <h2 class="text-indigo-800 font-semibold uppercase tracking-wide mb-4 border-b border-indigo-200 pb-1">Contact</h2>
+          <ul class="space-y-3 text-gray-700 text-sm">
+            <li class="flex items-center gap-3">
+              <i class="fas fa-phone text-indigo-600"></i>
+              <span>+1 222 333 444</span>
+            </li>
+            <li class="flex items-center gap-3">
+              <i class="fas fa-envelope text-indigo-600"></i>
+              <a href="mailto:surname.name@mail.com" class="hover:underline hover:text-indigo-700">surname.name@mail.com</a>
+            </li>
+            <li class="flex items-center gap-3">
+              <i class="fas fa-location-dot text-indigo-600"></i>
+              <span>NY, USA</span>
+            </li>
+            <li class="flex items-center gap-3">
+              <i class="fab fa-linkedin text-indigo-600"></i>
+              <a href="https://linkedin.com/in/surname.name" target="_blank" rel="noopener" class="hover:underline hover:text-indigo-700">linkedin/in/surname.name</a>
+            </li>
+          </ul>
+        </section>
+        <section class="mb-8">
+          <h2 class="text-indigo-800 font-semibold uppercase tracking-wide mb-4 border-b border-indigo-200 pb-1">Skills</h2>
+          <ul class="list-disc list-inside space-y-1 text-gray-700 text-sm">
+            <li>Curriculum Development</li>
+            <li>Classroom Management</li>
+            <li>Smart Teaching</li>
+            <li>Assessment and Evaluation</li>
+            <li>Differentiated Instruction</li>
+          </ul>
+        </section>
+        <section class="mb-8">
+          <h2 class="text-indigo-800 font-semibold uppercase tracking-wide mb-4 border-b border-indigo-200 pb-1">Software</h2>
+          <ul class="list-disc list-inside space-y-1 text-gray-700 text-sm">
+            <li>Microsoft Office Suite</li>
+            <li>Google Workspace</li>
+            <li>Moodle</li>
+          </ul>
+        </section>
+        <section class="mb-8">
+          <h2 class="text-indigo-800 font-semibold uppercase tracking-wide mb-4 border-b border-indigo-200 pb-1">Languages</h2>
+          <ul class="list-disc list-inside space-y-1 text-gray-700 text-sm">
+            <li>English (native)</li>
+            <li>Spanish (bilingual)</li>
+          </ul>
+        </section>
+        <section>
+          <h2 class="text-indigo-800 font-semibold uppercase tracking-wide mb-4 border-b border-indigo-200 pb-1">Interests</h2>
+          <ul class="list-disc list-inside space-y-1 text-gray-700 text-sm">
+            <li>Education innovation and technology</li>
+            <li>Community volunteer work</li>
+            <li>Literature and arts</li>
+          </ul>
+        </section>
+      </div>
+    </aside>
+
+    <!-- Right Column -->
+    <section class="w-full md:w-2/3 md:pl-12">
+      <p class="mb-6 text-gray-700 text-justify leading-relaxed">
+        Passionate and dedicated educator with a proven track record of fostering a positive and inclusive learning environment. Strong commitment to student success, utilizing innovative teaching methods to facilitate comprehensive understanding. Excellent communication and interpersonal skills to engage with students, parents, and colleagues effectively.
+      </p>
+
+      <section class="mb-10">
+        <h2 class="font-bold text-lg text-gray-900 mb-4 border-b border-indigo-300 pb-1">Professional Experience</h2>
+        
+        <article class="mb-6">
+          <h3 class="font-semibold text-indigo-800">High School English Teacher – XYZ High School</h3>
+          <p class="text-sm italic text-gray-600">Sept. 20XX – Dec. 20XX | NY, USA</p>
+          <ul class="list-disc list-inside mt-2 text-gray-700 text-sm space-y-1">
+            <li>Developed and implemented a dynamic curriculum that enhanced students’ critical thinking and analytical skills.</li>
+            <li>Initiated and led a literature club with diverse literary works beyond the standard curriculum.</li>
+          </ul>
+        </article>
+
+        <article class="mb-6">
+          <h3 class="font-semibold text-indigo-800">Educational Coordinator – ABC Education Foundation</h3>
+          <p class="text-sm italic text-gray-600">Sept. 20XX – Oct. 20XX | NY, USA</p>
+          <ul class="list-disc list-inside mt-2 text-gray-700 text-sm space-y-1">
+            <li>Developed and implemented a dynamic curriculum that enhanced students’ critical thinking and analytical skills.</li>
+            <li>Initiated and led a literature club, encouraging students to explore diverse literary works beyond the standard curriculum.</li>
+          </ul>
+        </article>
+
+        <article>
+          <h3 class="font-semibold text-indigo-800">ESL Instructor – Language Learning Center</h3>
+          <p class="text-sm italic text-gray-600">Sept. 20XX – Oct. 20XX | NY, USA</p>
+          <ul class="list-disc list-inside mt-2 text-gray-700 text-sm space-y-1">
+            <li>Developed and implemented a dynamic curriculum that enhanced students’ critical thinking and analytical skills.</li>
+            <li>Initiated and led a literature club.</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="mb-10">
+        <h2 class="font-bold text-lg text-gray-900 mb-4 border-b border-indigo-300 pb-1">Education</h2>
+        <article class="mb-4">
+          <h3 class="font-semibold text-indigo-800">MA Education</h3>
+          <p class="text-sm italic text-gray-600">University of Education</p>
+          <p class="text-sm italic text-gray-600 mb-1">200X – 200X | NY, USA</p>
+        </article>
+        <article class="mb-4">
+          <h3 class="font-semibold text-indigo-800">BA Education</h3>
+          <p class="text-sm italic text-gray-600">University of Education</p>
+          <p class="text-sm italic text-gray-600 mb-1">200X – 200X | NY, USA</p>
+        </article>
+        <article>
+          <h3 class="font-semibold text-indigo-800">CELTA Certificate</h3>
+          <p class="text-sm italic text-gray-600">200X – 200X | London, UK</p>
+        </article>
+      </section>
+    </section>
+  </main>
+</body>
+</html>

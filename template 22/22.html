@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Resume - Software Engineer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+  <style>
+    /* Custom colors for skill and language bars */
+    .skill-bar-bg {
+      background-color: #f6f6f6;
+    }
+
+    .skill-bar-py {
+      background-color: #f7941d; /* Orange for Python */
+    }
+
+    .skill-bar-sap {
+      background-color: #ec6c2e; /* Darker orange for SAP */
+    }
+
+    .skill-bar-sci {
+      background-color: #f2a375; /* Lighter orange for Scilab */
+    }
+
+    .skill-bar-notepad {
+      background-color: #f7c4aa; /* Soft orange for notepad */
+    }
+
+    .lang-bar-native {
+      background-color: #c75a00;
+    }
+
+    .lang-bar-advanced {
+      background-color: #f07e35;
+    }
+
+    .lang-bar-beginner {
+      background-color: #f7b582;
+    }
+  </style>
+</head>
+
+<body class="bg-white text-gray-900 font-sans">
+  <main class="max-w-5xl mx-auto my-8 p-6 border border-gray-300 shadow-md">
+    <div class="flex flex-col md:flex-row gap-8">
+      <!-- Left Side: Photo, Contact, Software, Languages -->
+      <section class="md:w-1/3 flex flex-col gap-10">
+        <!-- Photo -->
+        <div class="w-48 mx-auto md:mx-0">
+          <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/416eed41-c46f-4128-adc4-d2ee7517ca77.png" alt="Professional male portrait with glasses and black turtleneck sweater in natural city outdoor light" class="rounded shadow-lg w-full object-cover" />
+        </div>
+
+        <!-- Contact -->
+        <div class="border border-gray-300 rounded p-5 shadow-sm">
+          <h2 class="text-lg font-semibold mb-4 border-b border-gray-300 pb-1">Contact</h2>
+          <ul class="space-y-3 text-gray-700">
+            <li class="flex items-center gap-3">
+              <i class="fa-solid fa-phone text-orange-600 w-5"></i>
+              <a href="tel:+1222222222" class="hover:underline">+1 222 222 222</a>
+            </li>
+            <li class="flex items-center gap-3">
+              <i class="fa-solid fa-envelope text-orange-600 w-5"></i>
+              <a href="mailto:sn.name@email.co" class="hover:underline">sn.name@email.co</a>
+            </li>
+            <li class="flex items-center gap-3">
+              <i class="fa-solid fa-location-dot text-orange-600 w-5"></i>
+              <span>NY, USA</span>
+            </li>
+            <li class="flex items-center gap-3">
+              <i class="fa-brands fa-linkedin text-orange-600 w-5"></i>
+              <a href="#" class="hover:underline">surname name1</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Software -->
+        <div class="border border-gray-300 rounded p-5 shadow-sm">
+          <h2 class="text-lg font-semibold mb-4 border-b border-gray-300 pb-1">Software</h2>
+          <div class="space-y-4">
+            <div>
+              <span class="text-sm font-semibold">Python</span>
+              <div class="w-full h-4 rounded skill-bar-bg mt-1">
+                <div class="h-4 rounded skill-bar-py" style="width: 90%;"></div>
+              </div>
+            </div>
+            <div>
+              <span class="text-sm font-semibold">SAP</span>
+              <div class="w-full h-4 rounded skill-bar-bg mt-1">
+                <div class="h-4 rounded skill-bar-sap" style="width: 75%;"></div>
+              </div>
+            </div>
+            <div>
+              <span class="text-sm font-semibold">Scilab</span>
+              <div class="w-full h-4 rounded skill-bar-bg mt-1">
+                <div class="h-4 rounded skill-bar-sci" style="width: 60%;"></div>
+              </div>
+            </div>
+            <div>
+              <span class="text-sm font-semibold">Notepad</span>
+              <div class="w-full h-4 rounded skill-bar-bg mt-1">
+                <div class="h-4 rounded skill-bar-notepad" style="width: 40%;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Languages -->
+        <div class="border border-gray-300 rounded p-5 shadow-sm">
+          <h2 class="text-lg font-semibold mb-4 border-b border-gray-300 pb-1">Languages</h2>
+          <div class="space-y-4">
+            <div>
+              <span class="text-sm font-semibold">English: Native</span>
+              <div class="w-full h-4 rounded skill-bar-bg mt-1">
+                <div class="h-4 rounded lang-bar-native" style="width: 100%;"></div>
+              </div>
+            </div>
+            <div>
+              <span class="text-sm font-semibold">Spanish: Advanced</span>
+              <div class="w-full h-4 rounded skill-bar-bg mt-1">
+                <div class="h-4 rounded lang-bar-advanced" style="width: 80%;"></div>
+              </div>
+            </div>
+            <div>
+              <span class="text-sm font-semibold">French: Beginner</span>
+              <div class="w-full h-4 rounded skill-bar-bg mt-1">
+                <div class="h-4 rounded lang-bar-beginner" style="width: 40%;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Right Side: Main Content -->
+      <section class="md:w-2/3">
+        <!-- Name and Title -->
+        <header class="mb-8 text-center md:text-left">
+          <h1 class="text-4xl font-extrabold text-orange-600 tracking-wide">SURNAME NAME</h1>
+          <p class="text-lg font-semibold text-gray-700 mt-1">Software Engineer</p>
+        </header>
+
+        <!-- Summary -->
+        <section class="mb-8">
+          <h2 class="text-xl font-semibold border-b border-orange-600 pb-1 mb-3">Summary</h2>
+          <p class="text-gray-800 leading-relaxed">
+            To secure a challenging position as a software engineer in a dynamic organization, utilizing my strong technical skills,
+            problem-solving for creating innovative software solutions to contribute to the success of the company.
+          </p>
+        </section>
+
+        <!-- Experience -->
+        <section class="mb-8">
+          <h2 class="text-xl font-semibold border-b border-orange-600 pb-1 mb-6">Experience</h2>
+          <article class="mb-6">
+            <div class="flex justify-between items-center">
+              <div>
+                <h3 class="text-orange-600 font-semibold">Software Engineer</h3>
+                <p class="italic text-gray-700 text-sm">XYZ Company</p>
+              </div>
+              <time class="text-sm text-gray-600">Feb. 20XX - Sep. 20XX</time>
+            </div>
+            <ul class="list-disc list-inside mt-2 text-gray-800 space-y-1">
+              <li>Developed and maintained a robust and scalable web application used by thousands of users, resulting in improved user experience.</li>
+              <li>Collaborated with cross-functional teams to gather requirements, design architecture, and implement features.</li>
+            </ul>
+          </article>
+          <article class="mb-6">
+            <div class="flex justify-between items-center">
+              <div>
+                <h3 class="text-orange-600 font-semibold">Full-Stack Developer</h3>
+                <p class="italic text-gray-700 text-sm">ABC Development</p>
+              </div>
+              <time class="text-sm text-gray-600">March 20XX - Feb. 20XX</time>
+            </div>
+            <ul class="list-disc list-inside mt-2 text-gray-800 space-y-1">
+              <li>Led the development of a mobile application from concept to release, incorporating intuitive user interfaces, seamless navigation, and integration with backend services.</li>
+              <li>Utilized database technologies to store and retrieve data efficiently.</li>
+            </ul>
+          </article>
+          <article>
+            <div class="flex justify-between items-center">
+              <div>
+                <h3 class="text-orange-600 font-semibold">Internship</h3>
+                <p class="italic text-gray-700 text-sm">DEF Technology</p>
+              </div>
+              <time class="text-sm text-gray-600">Sept. 20XX - March 20XX</time>
+            </div>
+            <ul class="list-disc list-inside mt-2 text-gray-800 space-y-1">
+              <li>Assisted in the development and optimization of an e-commerce platform, contributing to increased page load speed and enhanced user experience.</li>
+              <li>Identified and fixed performance bottlenecks and implemented code refactoring techniques for improved code quality.</li>
+            </ul>
+          </article>
+        </section>
+
+        <!-- Education -->
+        <section class="mb-8">
+          <h2 class="text-xl font-semibold border-b border-orange-600 pb-1 mb-6">Education</h2>
+          <article class="mb-6">
+            <div class="flex justify-between items-center">
+              <div>
+                <h3 class="text-orange-600 font-semibold">Degree / Major</h3>
+                <p class="italic text-gray-700 text-sm">University</p>
+                <p class="text-gray-800 text-sm">Coursework related to position</p>
+              </div>
+              <time class="text-sm text-gray-600">Sept. 20XX - Jul. 20XX</time>
+            </div>
+          </article>
+          <article>
+            <div class="flex justify-between items-center">
+              <div>
+                <h3 class="text-orange-600 font-semibold">Degree / Major</h3>
+                <p class="italic text-gray-700 text-sm">University</p>
+                <p class="text-gray-800 text-sm">Coursework related to position</p>
+              </div>
+              <time class="text-sm text-gray-600">Sept. 20XX - Jul. 20XX</time>
+            </div>
+          </article>
+        </section>
+
+        <!-- Qualities and Interests -->
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div>
+            <h2 class="text-xl font-semibold border-b border-orange-600 pb-1 mb-4">Qualities</h2>
+            <ul class="list-disc list-inside text-gray-800 space-y-2">
+              <li>Adaptable</li>
+              <li>Self-motivated</li>
+              <li>Teamwork</li>
+            </ul>
+          </div>
+          <div>
+            <h2 class="text-xl font-semibold border-b border-orange-600 pb-1 mb-4">Interests</h2>
+            <ul class="list-disc list-inside text-gray-800 space-y-2">
+              <li>MMA</li>
+              <li>World of Warcraft</li>
+              <li>League of Legends</li>
+            </ul>
+          </div>
+        </section>
+      </section>
+    </div>
+  </main>
+</body>
+
+</html>
