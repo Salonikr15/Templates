@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Resume - Surname Name</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body class="bg-white text-gray-700 font-sans leading-relaxed">
+  <div class="max-w-5xl mx-auto my-10 bg-white shadow-lg rounded-lg border border-gray-200 flex flex-col md:flex-row">
+    <!-- Sidebar with icons and vertical bar -->
+    <aside class="bg-rose-300 w-full md:w-20 flex flex-col items-center py-12 space-y-12 text-rose-50">
+      <div class="flex flex-col space-y-12">
+        <i data-feather="user" class="w-6 h-6"></i>
+        <i data-feather="globe" class="w-6 h-6"></i>
+        <i data-feather="bar-chart-2" class="w-6 h-6"></i>
+        <i data-feather="search" class="w-6 h-6"></i>
+      </div>
+    </aside>
+
+    <!-- Main content -->
+    <main class="flex-1 p-10">
+      <div class="flex flex-col md:flex-row md:justify-between md:items-center md:mb-10">
+        <div>
+          <h1 class="text-3xl font-bold text-rose-600">SURNAME NAME</h1>
+          <p class="text-sm text-gray-400 font-semibold tracking-widest">JOB TITLE</p>
+        </div>
+        <!-- Profile Image -->
+        <div class="mt-6 md:mt-0 md:ml-10 flex-shrink-0 w-32 h-32 rounded-lg overflow-hidden border border-gray-200">
+          <img 
+            src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/33713479-8f7e-4cd4-8ced-18c3164e136c.png" 
+            alt="Professional portrait of a woman with brunette hair, soft natural light, warm background"
+            class="object-cover w-full h-full"
+            onerror="this.onerror=null;this.src='https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/41620709-6b2b-4cf4-9286-093d9ed22e8a.png';" />
+        </div>
+      </div>
+
+      <!-- Profile Summary -->
+      <section class="mb-10">
+        <h2 class="uppercase text-rose-600 font-semibold text-sm mb-2 tracking-wider">Profile Summary</h2>
+        <p class="text-gray-700 leading-relaxed max-w-3xl">
+          To secure a challenging position as a software engineer in a dynamic organization, 
+          utilizing my strong technical skills, problem-solving for creating innovative software 
+          solutions to contribute to the success of the company.
+        </p>
+      </section>
+
+      <!-- Two column layout for languages/skills and professional experience -->
+      <div class="flex flex-col md:flex-row gap-10">
+        <!-- Left column: Languages, Skills, Contact -->
+        <div class="md:w-1/3 space-y-10">
+          <!-- Languages -->
+          <section>
+            <h3 class="uppercase text-rose-600 font-semibold text-sm mb-3 tracking-wider">Languages</h3>
+            <ul class="text-gray-700 space-y-1 list-disc list-inside">
+              <li>English: Native</li>
+              <li>Spanish: Bilingual</li>
+              <li>Japanese: Beginner</li>
+            </ul>
+          </section>
+
+          <!-- Skills -->
+          <section>
+            <h3 class="uppercase text-rose-600 font-semibold text-sm mb-3 tracking-wider">Skills</h3>
+            <ul class="text-gray-700 space-y-1 list-disc list-inside">
+              <li>Python</li>
+              <li>JavaScript</li>
+              <li>HTML</li>
+              <li>SQL</li>
+              <li>CSS</li>
+            </ul>
+          </section>
+
+          <!-- Contact -->
+          <section class="border border-gray-300 rounded-md p-4 text-sm">
+            <h3 class="uppercase text-rose-600 font-semibold mb-3 tracking-wider">Contact</h3>
+            <p class="mb-2">+1 222 222 222</p>
+            <p class="mb-2">surname.name@gmail.com</p>
+            <p class="mb-2">NY, USA</p>
+            <p>
+              <a href="https://linkedin.com/in/surname.name" target="_blank" rel="noopener noreferrer" class="text-rose-600 hover:underline">
+                linkedin/surname.name/
+              </a>
+            </p>
+          </section>
+        </div>
+
+        <!-- Right column: Professional Experience & Education -->
+        <div class="md:w-2/3 space-y-10">
+          <!-- Professional Experience -->
+          <section>
+            <h3 class="uppercase text-rose-600 font-semibold text-sm mb-6 tracking-wider">Professional Experience</h3>
+
+            <article class="mb-6">
+              <h4 class="font-semibold text-gray-800">Software Engineer</h4>
+              <p class="text-xs italic text-gray-400 mb-2">XYZ Company | 06/200X - 05/200X</p>
+              <ul class="list-disc list-inside text-gray-700 space-y-1">
+                <li>Developed and maintained a robust and scalable web application used by thousands of users, resulting in improved user experience.</li>
+                <li>Collaborated with cross-functional teams to gather requirements, design architecture, and implement features.</li>
+              </ul>
+            </article>
+
+            <article class="mb-6">
+              <h4 class="font-semibold text-gray-800">Full-stack Developer</h4>
+              <p class="text-xs italic text-gray-400 mb-2">ABC Development | 06/200X - 05/200X</p>
+              <ul class="list-disc list-inside text-gray-700 space-y-1">
+                <li>Led the development of a mobile application from concept to release, incorporating intuitive user interfaces, seamless navigation, and integration with backend services.</li>
+                <li>Utilized database technologies to store and retrieve data efficiently.</li>
+              </ul>
+            </article>
+
+            <article>
+              <h4 class="font-semibold text-gray-800">Internship</h4>
+              <p class="text-xs italic text-gray-400 mb-2">DEF Technology | 06/200X - 05/200X</p>
+              <ul class="list-disc list-inside text-gray-700 space-y-1">
+                <li>Assisted in the development and optimization of an e-commerce platform, contributing to increased page load speed and enhanced user experience.</li>
+                <li>Identified and fixed performance bottlenecks and implemented code refactoring techniques for improved code quality and maintainability.</li>
+              </ul>
+            </article>
+          </section>
+
+          <!-- Education -->
+          <section>
+            <h3 class="uppercase text-rose-600 font-semibold text-sm mb-6 tracking-wider flex items-center space-x-2">
+              <i data-feather="book" class="w-4 h-4"></i>
+              <span>Education</span>
+            </h3>
+            <article class="mb-4">
+              <h4 class="font-semibold text-gray-800">Diploma / Major</h4>
+              <p class="text-xs italic text-gray-400 mb-1">University | 06/200X - 05/200X</p>
+            </article>
+            <article class="mb-4">
+              <h4 class="font-semibold text-gray-800">Diploma / Major</h4>
+              <p class="text-xs italic text-gray-400 mb-1">University | 06/200X - 05/200X</p>
+            </article>
+            <article>
+              <h4 class="font-semibold text-gray-800">Diploma / Major</h4>
+              <p class="text-xs italic text-gray-400 mb-1">University | 06/200X - 05/200X</p>
+            </article>
+          </section>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script>
+    feather.replace()
+  </script>
+</body>
+</html>

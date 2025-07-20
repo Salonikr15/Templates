@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Resume - Name Surname</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+</head>
+<body class="bg-white text-gray-800 font-sans antialiased px-6 py-10 max-w-4xl mx-auto">
+  <div class="flex flex-col md:flex-row md:gap-10">
+    <!-- Left Panel -->
+    <div class="md:w-3/12 relative">
+      <div class="bg-sky-300 rounded-full w-[250px] h-[250px] absolute -top-12 -left-12 -z-10"></div>
+      <h1 class="text-4xl font-bold mb-1">NAME SURNAME</h1>
+      <p class="text-slate-600 uppercase tracking-wide text-sm mb-8">JOB TITLE</p>
+
+      <section class="mb-8">
+        <h2 class="uppercase text-sm font-semibold tracking-widest border-b border-slate-300 pb-1 mb-3">Profile Summary</h2>
+        <p class="text-sm text-slate-700 leading-relaxed">
+          Results-driven Creative Director with over 16 years of experience in leading cross-functional teams and delivering innovative and compelling creative solutions. Proven ability to translate marketing objectives into creative strategies; manage projects from concept to completion, and drive brand success.
+        </p>
+      </section>
+
+      <section class="mb-8">
+        <h2 class="uppercase text-sm font-semibold tracking-widest border-b border-slate-300 pb-1 mb-3">Skills</h2>
+        <p class="text-sm text-slate-700 leading-relaxed">
+          <span class="font-semibold">Creative Strategy</span> | Branding & Identity | Art Direction | Team Leadership | Project Management | Print & Digital Media<br />
+          <span class="font-semibold">Software</span>: Sketch, Figma, Asana, Trello, Photoshop, Illustrator, InDesign.
+        </p>
+      </section>
+
+      <section class="mb-8">
+        <h2 class="uppercase text-sm font-semibold tracking-widest border-b border-slate-300 pb-1 mb-4">Languages</h2>
+        <div class="space-y-4">
+          <!-- English -->
+          <div>
+            <div class="flex justify-between mb-1 text-sm font-semibold text-slate-700">
+              <span>English</span>
+              <span>90%</span>
+            </div>
+            <div class="w-full bg-gray-300 rounded-full h-3.5">
+              <div class="bg-sky-600 h-3.5 rounded-full" style="width: 90%"></div>
+            </div>
+          </div>
+          <!-- Spanish -->
+          <div>
+            <div class="flex justify-between mb-1 text-sm font-semibold text-slate-700">
+              <span>Spanish</span>
+              <span>60%</span>
+            </div>
+            <div class="w-full bg-gray-300 rounded-full h-3.5">
+              <div class="bg-sky-300 h-3.5 rounded-full" style="width: 60%"></div>
+            </div>
+          </div>
+          <!-- French -->
+          <div>
+            <div class="flex justify-between mb-1 text-sm font-semibold text-slate-700">
+              <span>French</span>
+              <span>25%</span>
+            </div>
+            <div class="w-full bg-gray-300 rounded-full h-3.5">
+              <div class="bg-slate-300 h-3.5 rounded-full" style="width: 25%"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Right Panel -->
+    <div class="md:w-9/12 flex flex-col">
+      <!-- Photo and Contact Info -->
+      <div class="flex flex-col md:flex-row md:items-center md:justify-end mb-8 gap-5">
+        <div class="flex flex-col space-y-4">
+          <div class="flex items-center gap-3 text-slate-700 text-sm">
+            <i class="fas fa-location-dot text-sky-600"></i>
+            <span>City, Country</span>
+          </div>
+          <div class="flex items-center gap-3 text-slate-700 text-sm">
+            <i class="fas fa-phone text-sky-600"></i>
+            <span>222 222 222</span>
+          </div>
+          <div class="flex items-center gap-3 text-slate-700 text-sm">
+            <i class="fas fa-envelope text-sky-600"></i>
+            <span>name.surname@gmail.com</span>
+          </div>
+        </div>
+        <div class="relative">
+          <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/b0396c6d-3cb8-46b9-820b-ce8b37202779.png" alt="Professional headshot photo of a man with a confident smile, short brown hair, wearing a dark blazer" class="rounded-full border-4 border-sky-500 w-36 h-36 object-cover" onerror="this.src='https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/d9c3ede9-662f-4bdb-96c2-0f9f29f7b113.png'"/>
+          <div title="Download Word Document" class="absolute top-0 right-0 bg-blue-700 rounded-bl-md p-1">
+            <a href="#" aria-label="Download resume as Word document" class="text-white text-lg">
+              <i class="fa-brands fa-windows"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Professional Experience -->
+      <section class="mb-8">
+        <h2 class="uppercase text-sm font-semibold tracking-widest border-b border-slate-300 pb-1 mb-6">Professional Experience</h2>
+
+        <div class="mb-6">
+          <div class="text-xs uppercase text-slate-500 mb-1">Nov. 200X - Jul. 20XX, NY, USA</div>
+          <h3 class="font-bold text-slate-900 uppercase mb-0.5">Creative Director</h3>
+          <div class="italic text-sky-600 mb-3">XYZ Advertising Agency</div>
+          <ul class="list-disc list-inside text-slate-700 space-y-1 text-sm">
+            <li>Led a team of 15 creatives in developing and implementing integrated marketing campaigns for a diverse range of clients.</li>
+            <li>Spearheaded a rebranding initiative for a major tech client.</li>
+            <li>Collaborated with account managers to pitch and win new business.</li>
+          </ul>
+        </div>
+
+        <div class="mb-6">
+          <div class="text-xs uppercase text-slate-500 mb-1">Nov. 200X - Jul. 20XX, NY, USA</div>
+          <h3 class="font-bold text-slate-900 uppercase mb-0.5">Senior Art Director</h3>
+          <div class="italic text-sky-600 mb-3">ABC Design Studio</div>
+          <ul class="list-disc list-inside text-slate-700 space-y-1 text-sm">
+            <li>Directed the visual design and creative aspects of projects for clients in fashion.</li>
+            <li>Conceptualized a multimedia advertising campaign for a luxury fashion brand.</li>
+            <li>Mentored junior designers, contributing to a more cohesive creative team.</li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="text-xs uppercase text-slate-500 mb-1">Nov. 200X - Jul. 20XX, NY, USA</div>
+          <h3 class="font-bold text-slate-900 uppercase mb-0.5">Art Manager</h3>
+          <div class="italic text-sky-600 mb-3">PQR Marketing Solutions</div>
+          <ul class="list-disc list-inside text-slate-700 space-y-1 text-sm">
+            <li>Managed a diverse team of graphic designers, copywriters and multimedia artists.</li>
+            <li>Implemented streamlined project management processes.</li>
+            <li>Collaborated with the sales team to create compelling presentations.</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Education -->
+      <section>
+        <h2 class="uppercase text-sm font-semibold tracking-widest border-b border-slate-300 pb-1 mb-6">Education</h2>
+        <div class="space-y-4 text-slate-700 text-sm">
+          <div>
+            <div class="uppercase text-xs text-slate-500 mb-1">20XX - 20XX, NY, USA</div>
+            <p><strong>BA Graphic Design</strong><br />NYU</p>
+          </div>
+          <div>
+            <div class="uppercase text-xs text-slate-500 mb-1">20XX - 20XX, NY, USA</div>
+            <p><strong>High School Diploma</strong><br />NYU</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</body>
+</html>

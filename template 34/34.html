@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Khalil Richardson - Resume</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+  <style>
+    /* For the dot before each skill and tasks */
+    .list-dot > li::marker {
+      color: #4f46e5; /* Indigo-600 */
+      font-weight: bold;
+      content: '• ';
+      font-size: 1.25rem;
+      margin-right: 0.25rem;
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-900 font-sans antialiased">
+  <div class="max-w-4xl mx-auto my-10 shadow-lg rounded-lg overflow-hidden flex flex-col md:flex-row">
+    <!-- Left Column -->
+    <aside class="bg-indigo-900 text-indigo-100 md:w-1/3 p-8 flex flex-col items-center md:items-start">
+      <!-- Profile Image -->
+      <div class="w-40 h-40 rounded-full overflow-hidden border-4 border-indigo-600 mb-6">
+        <img 
+          src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/fc124c70-d5b5-4b18-96b0-c4886003a1dd.png" 
+          alt="Portrait of a young man with dark hair and a casual navy jacket, smiling gently with a neat beard in soft natural light"
+          class="object-cover w-full h-full"
+          onerror="this.onerror=null;this.src='https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/318a1b5a-c295-4246-b621-254b96d8bd90.png';"
+        />
+      </div>
+      <!-- Name and Title -->
+      <h1 class="text-3xl font-bold leading-tight mb-1">Khalil Richardson</h1>
+      <p class="uppercase tracking-wider text-indigo-300 font-medium mb-6">Journalist</p>
+      <hr class="border-indigo-700 w-full mb-6" />
+      <!-- About Me Section -->
+      <section class="mb-8 w-full">
+        <h2 class="text-lg font-semibold mb-2 border-b border-indigo-700 pb-1">About Me</h2>
+        <p class="text-indigo-200 text-sm leading-relaxed">
+          As a seasoned journalist with over 7 years of experience in delivering impactful and thought-provoking stories, I am passionate about investigating and uncovering the truth. I am committed to producing high-quality, accurate, and engaging content that informs, educates, and inspires readers.
+        </p>
+      </section>
+      <!-- Skills -->
+      <section class="mb-8 w-full">
+        <h2 class="text-lg font-semibold mb-3 border-b border-indigo-700 pb-1">Skills</h2>
+        <ul class="list-dot text-indigo-300 text-sm space-y-1 leading-relaxed">
+          <li>Teamwork</li>
+          <li>Communication</li>
+          <li>Data visualization</li>
+          <li>InDesign</li>
+          <li>Google Suite</li>
+        </ul>
+      </section>
+      <!-- Contact Info -->
+      <section class="w-full">
+        <h2 class="text-lg font-semibold mb-3 border-b border-indigo-700 pb-1">Contact</h2>
+        <div class="flex items-center mb-3 text-indigo-300 text-sm space-x-3">
+          <i class="fa-solid fa-phone"></i>
+          <a href="tel:+160602020" class="hover:text-indigo-100">+1 606 0202 020</a>
+        </div>
+        <div class="flex items-center mb-3 text-indigo-300 text-sm space-x-3">
+          <i class="fa-solid fa-envelope"></i>
+          <a href="mailto:name.lastname@email.com" class="hover:text-indigo-100 truncate">name.lastname@email.com</a>
+        </div>
+        <div class="flex items-center text-indigo-300 text-sm space-x-3">
+          <i class="fa-solid fa-location-dot"></i>
+          <span>Virginia, US</span>
+        </div>
+      </section>
+    </aside>
+
+    <!-- Right Column -->
+    <main class="md:w-2/3 bg-white p-10">
+      <!-- Work Experience -->
+      <section class="mb-10">
+        <div class="flex items-center mb-4">
+          <h2 class="text-xl font-bold uppercase tracking-wide text-yellow-300">Work Experience</h2>
+          <i class="fa-brands fa-microsoft-word text-blue-600 text-2xl ml-4" title="Microsoft Word"></i>
+        </div>
+        <!-- Each Experience Block -->
+        <article class="mb-6">
+          <h3 class="font-semibold text-gray-800">The Virginian Pilot | 20XX – 20XX</h3>
+          <p class="italic text-gray-500">Journalist, Norfolk</p>
+          <p class="font-semibold mt-2">Tasks:</p>
+          <ul class="list-disc list-inside text-gray-700 space-y-1 mt-1 text-sm">
+            <li>Pitch timely story ideas for investigative journalism.</li>
+            <li>Write 15 stories monthly covering the latest in breaking news.</li>
+            <li>In-depth analysis of relevant political events.</li>
+            <li>Fact-checking for accuracy and data visualization purposes.</li>
+          </ul>
+        </article>
+        <article class="mb-6">
+          <h3 class="font-semibold text-gray-800">Daily Press | 20XX – 20XX</h3>
+          <p class="italic text-gray-500">Staff Editor, Newport News</p>
+          <p class="font-semibold mt-2">Tasks:</p>
+          <ul class="list-disc list-inside text-gray-700 space-y-1 mt-1 text-sm">
+            <li>Published a weekly blog covering the latest in tech innovations.</li>
+            <li>Maintained a 3.5% engagement rate.</li>
+            <li>Interviewed digital entrepreneurs on a weekly basis.</li>
+            <li>Aided in-house writers in editing and fact-checking for accuracy.</li>
+          </ul>
+        </article>
+        <article class="mb-6">
+          <h3 class="font-semibold text-gray-800">Washington Post | 20XX – 20XX</h3>
+          <p class="italic text-gray-500">Washington D.C., Washington</p>
+          <p class="font-semibold mt-2">Tasks:</p>
+          <ul class="list-disc list-inside text-gray-700 space-y-1 mt-1 text-sm">
+            <li>Created compelling pieces for online publications which included coordinating images and layout for best presentation standards.</li>
+            <li>Developed key story ideas by evaluating and following up on news leads and tips.</li>
+            <li>Aided contributors in editing and fact-checking for accuracy.</li>
+          </ul>
+        </article>
+        <article>
+          <h3 class="font-semibold text-gray-800">The Guardian | 20XX – 20XX</h3>
+          <p class="italic text-gray-500">Contributor, Remote</p>
+          <p class="font-semibold mt-2">Tasks:</p>
+          <ul class="list-disc list-inside text-gray-700 space-y-1 mt-1 text-sm">
+            <li>Conducted interviews and covered key moments from the G20 Summit 2021 in Italy.</li>
+            <li>Produced in-depth and engaging online content in accordance with house style.</li>
+          </ul>
+        </article>
+      </section>
+
+      <!-- Languages -->
+      <section class="mb-10">
+        <h2 class="text-xl font-bold uppercase tracking-wide text-yellow-300 mb-3">Languages</h2>
+        <ul class="text-gray-700 space-y-1 text-sm">
+          <li><span class="font-semibold">English:</span> Native</li>
+          <li><span class="font-semibold">Spanish:</span> Proficient</li>
+          <li><span class="font-semibold">French:</span> Advanced</li>
+        </ul>
+      </section>
+
+      <!-- Education -->
+      <section>
+        <h2 class="text-xl font-bold uppercase tracking-wide text-yellow-300 mb-3">Education</h2>
+        <article class="mb-6 text-gray-700 text-sm">
+          <p><span class="italic">20XX-20XX | Seattle - Washington</span></p>
+          <p><strong>Masters Digital Communication</strong></p>
+          <p>University of Washington</p>
+        </article>
+        <article class="text-gray-700 text-sm">
+          <p><span class="italic">20XX | Blacksburg - Virginia</span></p>
+          <p><strong>B.A. Multimedia Journalism</strong></p>
+          <p>Virginia Tech</p>
+        </article>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
