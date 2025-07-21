@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Professional Resume</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    /* Custom scrollbar for skill/language bars */
+    .bar-bg {
+      background-color: #d1d5db;
+    }
+
+    .bar-fill {
+      background-color: #6b7280;
+    }
+  </style>
+</head>
+
+<body class="bg-white text-gray-900 antialiased font-sans">
+  <main class="max-w-5xl mx-auto my-10 shadow-lg rounded-md border border-gray-200 flex flex-col md:flex-row">
+    <!-- Left sidebar -->
+    <section class="bg-gray-600 flex-shrink-0 md:w-80 text-white p-8 flex flex-col items-center space-y-6 rounded-t-md md:rounded-l-md md:rounded-t-none">
+      <div class="rounded-full overflow-hidden w-36 h-36 border-4 border-gray-400">
+        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/b76b244b-826d-45e2-852d-aa6cb635bbfb.png"
+          alt="Professional portrait photo of confident woman dressed in business attire with plain neutral background"
+          class="object-cover w-full h-full" onerror="this.onerror=null; this.src='https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/2dbb1308-6d47-4e8c-9562-f23ae46f8f74.png';" />
+      </div>
+      <div class="text-center">
+        <h1 class="text-3xl font-extrabold tracking-wide">NAME SURNAME</h1>
+        <p class="text-lg font-medium mt-1">JOB TITLE</p>
+      </div>
+
+      <div class="w-full space-y-6 mt-8">
+        <!-- Contact -->
+        <div>
+          <h2 class="tracking-widest text-sm font-semibold border-b border-gray-400 pb-1 mb-3 uppercase">Contact</h2>
+          <div class="space-y-3 text-gray-300 text-sm">
+            <div class="flex items-center space-x-3">
+              <i class="fa fa-location-dot"></i>
+              <span>NY, USA</span>
+            </div>
+            <div class="flex items-center space-x-3 break-all">
+              <i class="fa fa-envelope"></i>
+              <a href="mailto:name.srv@mail.com" class="hover:underline">name.srv@mail.com</a>
+            </div>
+            <div class="flex items-center space-x-3">
+              <i class="fa fa-phone"></i>
+              <span>+1 222 222 222</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Interests -->
+        <div>
+          <h2 class="tracking-widest text-sm font-semibold border-b border-gray-400 pb-1 mb-3 uppercase">Interests</h2>
+          <ul class="list-disc list-inside text-gray-300 text-sm space-y-1">
+            <li>Hiking</li>
+            <li>Yoga</li>
+            <li>Reading</li>
+            <li>Crafts</li>
+          </ul>
+        </div>
+
+        <!-- Languages -->
+        <div>
+          <h2 class="tracking-widest text-sm font-semibold border-b border-gray-400 pb-1 mb-3 uppercase">Languages</h2>
+          <div class="space-y-4">
+            <div>
+              <div class="flex justify-between text-xs mb-1 text-gray-300 font-semibold">Spanish</div>
+              <div class="h-3 rounded bar-bg overflow-hidden">
+                <div class="bar-fill h-full rounded" style="width: 75%;"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between text-xs mb-1 text-gray-300 font-semibold">English</div>
+              <div class="h-3 rounded bar-bg overflow-hidden">
+                <div class="bar-fill h-full rounded" style="width: 80%;"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between text-xs mb-1 text-gray-300 font-semibold">German</div>
+              <div class="h-3 rounded bar-bg overflow-hidden">
+                <div class="bar-fill h-full rounded" style="width: 60%;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Skills -->
+        <div>
+          <h2 class="tracking-widest text-sm font-semibold border-b border-gray-400 pb-1 mb-3 uppercase">Skills</h2>
+          <div class="space-y-4">
+            <div>
+              <div class="flex justify-between text-xs text-gray-300 font-semibold mb-1">Excel</div>
+              <div class="h-3 rounded bar-bg overflow-hidden">
+                <div class="bar-fill h-full rounded" style="width: 70%;"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between text-xs text-gray-300 font-semibold mb-1">Word</div>
+              <div class="h-3 rounded bar-bg overflow-hidden">
+                <div class="bar-fill h-full rounded" style="width: 80%;"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between text-xs text-gray-300 font-semibold mb-1">PowerPoint</div>
+              <div class="h-3 rounded bar-bg overflow-hidden">
+                <div class="bar-fill h-full rounded" style="width: 65%;"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between text-xs text-gray-300 font-semibold mb-1">Java</div>
+              <div class="h-3 rounded bar-bg overflow-hidden">
+                <div class="bar-fill h-full rounded" style="width: 75%;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Right main content -->
+    <section class="px-10 py-8 md:flex-1 bg-white rounded-b-md md:rounded-r-md md:rounded-b-none">
+      <!-- Profile summary -->
+      <article class="mb-10">
+        <h2 class="flex items-center space-x-3 font-semibold tracking-widest text-gray-600 uppercase mb-4">
+          <i class="fa fa-user-tie text-gray-400"></i>
+          <span>Profile Summary</span>
+        </h2>
+        <p class="text-gray-700 text-sm leading-relaxed max-w-prose">
+          Strategic and results-oriented executive with over 15 years of experience in leading and optimizing operational
+          functions for global organizations. Proven track record of driving efficiency, profitability, and cross-functional collaboration.
+          Adept at implementing innovative solutions to enhance processes and exceed organisational goals.
+        </p>
+      </article>
+
+      <!-- Work Experience -->
+      <article class="mb-10">
+        <h2 class="flex items-center space-x-3 font-semibold tracking-widest text-gray-600 uppercase mb-6">
+          <i class="fa fa-briefcase text-gray-400"></i>
+          <span>Work Experience</span>
+        </h2>
+
+        <!-- Experience entry 1 -->
+        <div class="mb-6">
+          <div class="text-xs text-gray-500 uppercase font-semibold tracking-wide">Nov. 20XX - Jul. 20XX</div>
+          <div class="text-base font-bold text-gray-800">XYZ Corporation</div>
+          <div class="italic text-sm text-gray-600 mb-1">City, Country</div>
+          <div class="mb-2 font-semibold text-gray-700">Job occupied</div>
+          <ul class="list-disc list-inside text-gray-600 space-y-1 text-sm">
+            <li>Led a cross-functional team to streamline supply chain processes, resulting in a 20% reduction in operational costs.</li>
+            <li>Implemented a data-driven approach to inventory management, reducing stockouts by 15%.</li>
+          </ul>
+        </div>
+
+        <!-- Experience entry 2 -->
+        <div class="mb-6">
+          <div class="text-xs text-gray-500 uppercase font-semibold tracking-wide">Nov. 20XX - Jul. 20XX</div>
+          <div class="text-base font-bold text-gray-800">ABC International</div>
+          <div class="italic text-sm text-gray-600 mb-1">City, Country</div>
+          <div class="mb-2 font-semibold text-gray-700">Job occupied</div>
+          <ul class="list-disc list-inside text-gray-600 space-y-1 text-sm">
+            <li>Spearheaded market expansion initiatives, increasing the company’s global footprint by 30% within two years.</li>
+            <li>Negotiated and closed strategic partnerships with key clients, contributing to a 25% revenue growth.</li>
+          </ul>
+        </div>
+
+        <!-- Experience entry 3 -->
+        <div>
+          <div class="text-xs text-gray-500 uppercase font-semibold tracking-wide">Nov. 20XX - Jul. 20XX</div>
+          <div class="text-base font-bold text-gray-800">LMN Enterprises</div>
+          <div class="italic text-sm text-gray-600 mb-1">City, Country</div>
+          <div class="mb-2 font-semibold text-gray-700">Job occupied</div>
+          <ul class="list-disc list-inside text-gray-600 space-y-1 text-sm">
+            <li>Revitalized the production process by introducing lean principles, resulting in a 15% improvement in overall efficiency.</li>
+            <li>Successfully managed a multimillion-dollar budget, optimizing resource allocation and achieving cost savings of 18%.</li>
+          </ul>
+        </div>
+      </article>
+
+      <!-- Education -->
+      <article>
+        <h2 class="flex items-center space-x-3 font-semibold tracking-widest text-gray-600 uppercase mb-6">
+          <i class="fa fa-graduation-cap text-gray-400"></i>
+          <span>Education</span>
+        </h2>
+        <div class="space-y-4 text-gray-700 text-sm max-w-prose">
+          <div>
+            <div class="font-semibold">MBA Business Administration</div>
+            <div class="italic text-xs text-gray-500 mb-1">20XX - 20XX</div>
+            <div>NYU</div>
+          </div>
+          <div>
+            <div class="font-semibold">BA Business Administration</div>
+            <div class="italic text-xs text-gray-500 mb-1">20XX - 20XX</div>
+            <div>NYU</div>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
+</body>
+
+</html>

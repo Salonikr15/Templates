@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Resume - Name Surname</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+    <style>
+        /* Custom bullet style for skills rating */
+        .dot-rating {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            border-radius: 9999px;
+            margin-right: 0.25rem;
+        }
+        .dot-filled {
+            background-color: #1f2937; /* Tailwind slate-800 */
+        }
+        .dot-empty {
+            background-color: #d1d5db; /* Tailwind gray-300 */
+        }
+    </style>
+</head>
+<body class="bg-white font-sans text-gray-900 max-w-4xl mx-auto shadow-lg my-10">
+    <div class="md:flex">
+        <!-- Left Sidebar Yellow -->
+        <aside class="bg-yellow-400 text-slate-900 w-full md:w-80 p-8 flex flex-col items-center md:items-start">
+            <div class="w-32 h-32 rounded-full overflow-hidden border-4 border-black mb-6">
+                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/5397ce01-b7e4-4246-9e27-069200b42ba5.png" alt="Young woman with glasses, smiling and resting chin on hand, natural lighting, casual hair and clothing" class="object-cover w-full h-full" onerror="this.onerror=null;this.src='https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/8e9cf25d-83ec-4407-bf64-ec9e77cc2975.png';" />
+            </div>
+            <div class="w-full">
+                <section class="mb-8">
+                    <h2 class="font-semibold uppercase tracking-wide border-b-2 border-black pb-1 mb-3">Profile</h2>
+                    <p class="text-sm leading-relaxed">
+                        Results-oriented account manager with over 5 years of experience in driving revenue growth and building lasting relationships.
+                        Proven track record of exceeding largest sales strategies.
+                    </p>
+                </section>
+                <section class="mb-8">
+                    <h2 class="font-semibold uppercase tracking-wide border-b-2 border-black pb-1 mb-4">Contact</h2>
+                    <ul class="text-sm space-y-3">
+                        <li class="flex items-center space-x-3">
+                            <i class="fa-solid fa-envelope"></i>
+                            <a href="mailto:name.sn@mail.com" class="hover:underline break-all">name.sn@mail.com</a>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>+1 222 222 222</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>New York</span>
+                        </li>
+                    </ul>
+                </section>
+                <section>
+                    <h2 class="font-semibold uppercase tracking-wide border-b-2 border-black pb-1 mb-4">Skills</h2>
+                    <ul class="text-sm space-y-6">
+                        <li>
+                            <div class="mb-1">Sales & Negotiation</div>
+                            <div>
+                                <span class="dot-rating dot-filled"></span>
+                                <span class="dot-rating dot-filled"></span>
+                                <span class="dot-rating dot-filled"></span>
+                                <span class="dot-rating dot-empty"></span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="mb-1">Account Management</div>
+                            <div>
+                                <span class="dot-rating dot-filled"></span>
+                                <span class="dot-rating dot-filled"></span>
+                                <span class="dot-rating dot-filled"></span>
+                                <span class="dot-rating dot-filled"></span>
+                                <span class="dot-rating dot-filled"></span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="mb-1">Market Research</div>
+                            <div>
+                                <span class="dot-rating dot-filled"></span>
+                                <span class="dot-rating dot-filled"></span>
+                                <span class="dot-rating dot-filled"></span>
+                                <span class="dot-rating dot-empty"></span>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </aside>
+
+        <!-- Right Main Content -->
+        <main class="flex-1 bg-white p-8">
+            <header class="mb-8 border-b border-gray-300 pb-3">
+                <h1 class="text-3xl font-extrabold uppercase tracking-wide">Name Surname</h1>
+                <p class="text-gray-500 uppercase tracking-wider">Name Surname</p>
+            </header>
+
+            <section class="mb-8">
+                <h2 class="font-bold text-lg border-b-2 border-black pb-1 mb-4">Professional Experience</h2>
+
+                <article class="mb-6">
+                    <h3 class="font-semibold leading-tight">
+                        Account Manager <span class="font-normal italic">| XYZ Company</span>
+                    </h3>
+                    <p class="text-sm text-gray-600 italic mb-2">Sept. 20XX - Jul. 20XX</p>
+                    <ul class="list-disc list-inside space-y-1 text-sm">
+                        <li>Successfully managed a portfolio of key accounts, resulting in a 20% increase in revenue within the first year.</li>
+                    </ul>
+                </article>
+
+                <article class="mb-6">
+                    <h3 class="font-semibold leading-tight">
+                        Senior Sales Representative <span class="font-normal italic">| ABC Corporation</span>
+                    </h3>
+                    <p class="text-sm text-gray-600 italic mb-2">Sept. 20XX - Jul. 20XX</p>
+                    <ul class="list-disc list-inside space-y-1 text-sm">
+                        <li>Consistently achieved and exceeded quarterly sales targets.</li>
+                        <li>Led negotiations for a major contract, generating a 25% increase in annual revenue.</li>
+                    </ul>
+                </article>
+
+                <article>
+                    <h3 class="font-semibold leading-tight">
+                        Sales Associate <span class="font-normal italic">| DEF Solutions</span>
+                    </h3>
+                    <p class="text-sm text-gray-600 italic mb-2">Sept. 20XX - Jul. 20XX</p>
+                    <ul class="list-disc list-inside space-y-1 text-sm">
+                        <li>Initiated and nurtured relationships with potential clients.</li>
+                        <li>Provided product demonstrations and presentations to clients.</li>
+                    </ul>
+                </article>
+            </section>
+
+            <section class="mb-8">
+                <h2 class="font-bold text-lg border-b-2 border-black pb-1 mb-4">Education</h2>
+                <div class="pl-4 border-l-4 border-yellow-400 space-y-6 text-sm">
+                    <div>
+                        <div class="font-semibold">MA Communication | 20XX - 20XX</div>
+                        <div class="italic text-gray-500">NYU</div>
+                    </div>
+                    <div>
+                        <div class="font-semibold">BA Communication | 20XX - 20XX</div>
+                        <div class="italic text-gray-500">NYU</div>
+                    </div>
+                    <div>
+                        <div class="font-semibold">High School Diploma | 20XX - 20XX</div>
+                        <div class="italic text-gray-500">NYU</div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h2 class="font-bold text-lg border-b-2 border-black pb-1 mb-4">Interests</h2>
+                <ul class="list-disc list-inside text-sm space-y-1">
+                    <li>Knitting</li>
+                    <li>Contemporary Dance</li>
+                </ul>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
