@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Resume - Name Surname</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    /* Custom scrollbar for profile pic circle container if needed */
+    .scrollbar-hide::-webkit-scrollbar {
+      display: none;
+    }
+  </style>
+</head>
+<body class="bg-white font-sans text-gray-900 antialiased">
+  <div class="max-w-3xl mx-auto mt-10 mb-16 p-6 shadow-md border border-gray-200 rounded-md">
+    <!-- Header: Dark green background with round profile & name -->
+    <header class="bg-[#0f423f] relative pb-14 pt-8 px-8 rounded-t-md flex flex-col md:flex-row md:items-center md:gap-8">
+      <div class="flex-shrink-0 md:w-24 md:h-24 w-20 h-20 rounded-full overflow-hidden border-4 border-white shadow-lg">
+        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/41814f7c-ede8-4a2d-8297-adf616b63339.png" alt="Portrait photo of a smiling woman with blonde hair, professional and friendly looking" class="w-full h-full object-cover" onerror="this.onerror=null;this.src='https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/d5ff1e89-c845-499b-ade4-adacc3baccca.png'" />
+      </div>
+      <div class="text-white mt-4 md:mt-0 flex-1">
+        <h1 class="text-3xl font-extrabold tracking-wide">Name <span class="uppercase">SURNAME</span></h1>
+        <p class="mt-1 text-lg font-medium opacity-80">JOB TITLE / PROFESSION</p>
+      </div>
+      <div class="absolute top-6 right-6">
+        <a href="#" title="Download Resume as Word Document" class="text-white hover:text-blue-400" aria-label="Download Resume as Word Document">
+          <i class="fa-brands fa-windows fa-2x"></i>
+        </a>
+      </div>
+    </header>
+
+    <!-- Main Body Grid -->
+    <main class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-10 text-sm md:text-base">
+      <!-- Left Sidebar -->
+      <section class="space-y-8 md:col-span-1">
+        <!-- PROFILE SECTION -->
+        <div>
+          <h2 class="font-semibold text-teal-400 flex items-center gap-2 text-lg">
+            <i class="fa-solid fa-user"></i> PROFILE
+          </h2>
+          <hr class="border-teal-300 my-2" />
+          <p class="leading-relaxed text-gray-700">
+            Dedicated and results-driven professional with over 5 years of experience in retail management. Proven track record of optimizing store operations, increasing sales, and enhancing customer satisfaction.
+          </p>
+        </div>
+
+        <!-- CONTACT SECTION -->
+        <div>
+          <h2 class="font-semibold text-teal-400 flex items-center gap-2 text-lg">
+            <i class="fa-solid fa-address-book"></i> CONTACT
+          </h2>
+          <hr class="border-teal-300 my-2" />
+          <ul class="space-y-1 text-gray-700">
+            <li class="flex items-center gap-3">
+              <i class="fa-solid fa-phone text-teal-500 w-5 text-center"></i>
+              +1 222 222 222
+            </li>
+            <li class="flex items-center gap-3">
+              <i class="fa-solid fa-envelope text-teal-500 w-5 text-center"></i>
+              surname.name@gmail.com
+            </li>
+            <li class="flex items-center gap-3">
+              <i class="fa-solid fa-location-dot text-teal-500 w-5 text-center"></i>
+              NY, USA
+            </li>
+          </ul>
+        </div>
+
+        <!-- SKILLS SECTION -->
+        <div>
+          <h2 class="font-semibold text-teal-400 flex items-center gap-2 text-lg">
+            <i class="fa-solid fa-list-check"></i> SKILLS
+          </h2>
+          <hr class="border-teal-300 my-2" />
+          <ul class="list-disc list-inside text-gray-700 space-y-1">
+            <li>Strong Leadership</li>
+            <li>Problem-Solving</li>
+            <li>Adaptability</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Right Content Area -->
+      <section class="md:col-span-2 space-y-8">
+        <!-- EDUCATION SECTION -->
+        <div>
+          <h2 class="font-semibold text-teal-400 flex items-center gap-2 text-lg">
+            <i class="fa-solid fa-graduation-cap"></i> EDUCATION
+          </h2>
+          <hr class="border-teal-300 my-2" />
+          <ul class="space-y-4 text-gray-800">
+            <li>
+              <p class="font-bold">BA in Business Administration | XYZ University</p>
+              <p class="italic text-sm opacity-70">Jan 20XX – Nov 20XX | NY</p>
+              <p class="mt-1 font-semibold">Marketing major</p>
+            </li>
+            <li>
+              <p class="font-bold">Professional Development | Institute of Retail</p>
+              <p class="italic text-sm opacity-70">Jan 20XX - Oct 20XX | NY</p>
+            </li>
+            <li>
+              <p class="font-bold">Diploma in Business Analytics | Data Science Academy</p>
+              <p class="italic text-sm opacity-70">Jan 20XX - April 20XX | Remote</p>
+              <ul class="list-disc list-inside mt-1 text-gray-700">
+                <li>Business analytics</li>
+                <li>Data science</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+        <!-- TECHNICAL COMPETENCIES -->
+        <div>
+          <h2 class="font-semibold text-teal-400 flex items-center gap-2 text-lg">
+            <i class="fa-solid fa-gears"></i> TECHNICAL COMPETENCIES
+          </h2>
+          <hr class="border-teal-300 my-2" />
+          <ul class="list-disc list-inside text-gray-700 space-y-1">
+            <li>Microsoft Office Suite</li>
+            <li>Point of Sale (POS) Systems</li>
+            <li>(CRM) Software</li>
+          </ul>
+        </div>
+
+        <!-- PROFESSIONAL EXPERIENCE -->
+        <div>
+          <h2 class="font-semibold text-teal-400 flex items-center gap-2 text-lg">
+            <i class="fa-solid fa-briefcase"></i> PROFESSIONAL EXPERIENCE
+          </h2>
+          <hr class="border-teal-300 my-2" />
+          <div class="space-y-6 text-gray-900">
+            <div>
+              <h3 class="font-bold text-base md:text-lg">STORE MANAGER | XYZ Retail</h3>
+              <p class="italic text-sm opacity-70">Jan 20XX – July 20XX | NY</p>
+              <ul class="list-disc list-inside mt-2 space-y-1">
+                <li>Managed a high-traffic retail store with a team of 15 employees</li>
+                <li>Implemented strategic merchandising initiatives that resulted in a 15% increase in average transaction value.</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 class="font-bold text-base md:text-lg">ASSISTANT STORE MANAGER | ABC Electronics</h3>
+              <p class="italic text-sm opacity-70">Jan 20XX – Nov 20XX | NY</p>
+              <ul class="list-disc list-inside mt-2 space-y-1">
+                <li>Oversaw daily operations, including inventory management, staff scheduling, and customer service, resulting in a 10% reduction in operational costs.</li>
+                <li>Implemented a customer loyalty program that contributed to a 15% increase in repeat business.</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 class="font-bold text-base md:text-lg">DEPARTMENT SUPERVISOR | DEF Fashion</h3>
+              <p class="italic text-sm opacity-70">Feb. 20XX – Oct. 20XX | NY</p>
+              <ul class="list-disc list-inside mt-2 space-y-1">
+                <li>Managed a team of 8 associates in the clothing department</li>
+                <li>Analyzed sales data to identify trends and opportunities.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
