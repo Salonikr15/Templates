@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Emma Watson - Resume</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Custom font for name */
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #e5e7eb;
+    }
+    .font-display {
+      font-family: 'Playfair Display', serif;
+    }
+    /* Keep sticky top and bottom bars */
+    .bar {
+      height: 12px;
+      background-color: #1e293b; /* Tailwind slate-800 */
+    }
+  </style>
+  <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body class="min-h-screen flex justify-center items-start py-10 px-4 select-none">
+
+  <div class="bg-white max-w-4xl w-full rounded-md shadow-lg border border-gray-200 font-sans text-gray-900 overflow-hidden">
+    
+    <div class="bar"></div>
+
+    <section class="px-12 pt-12 pb-10 border-b border-gray-200 text-center">
+      <h1 class="font-display text-5xl font-black tracking-widest mb-1 text-gray-900">EMMA WATSON</h1>
+      <p class="text-sm uppercase text-gray-600 tracking-wide">YOUR PROFESSIONAL TITLE</p>
+    </section>
+
+    <main class="grid grid-cols-1 md:grid-cols-12 gap-10 px-12 pt-10 pb-16">
+      
+      <!-- Left Sidebar: Contact, Education, Skills -->
+      <aside class="md:col-span-4 space-y-12">
+        
+        <!-- Contact -->
+        <section>
+          <h2 class="font-semibold text-sm tracking-wide uppercase mb-6">Contact</h2>
+          <ul class="space-y-4 text-gray-700 text-sm">
+            <li class="flex items-center space-x-3">
+              <i data-feather="phone" class="w-5 h-5 text-slate-600 shrink-0"></i>
+              <span>123-456-7890</span>
+            </li>
+            <li class="flex items-center space-x-3">
+              <i data-feather="mail" class="w-5 h-5 text-slate-600 shrink-0"></i>
+              <span>youremail@gmail.com</span>
+            </li>
+            <li class="flex items-center space-x-3">
+              <i data-feather="map-pin" class="w-5 h-5 text-slate-600 shrink-0"></i>
+              <span>City, State</span>
+            </li>
+            <li class="flex items-center space-x-3">
+              <i data-feather="linkedin" class="w-5 h-5 text-slate-600 shrink-0"></i>
+              <span>Linkedin.com/username</span>
+            </li>
+          </ul>
+        </section>
+
+        <!-- Education -->
+        <section>
+          <h2 class="font-semibold text-sm tracking-wide uppercase mb-6">Education</h2>
+          <div class="text-sm text-gray-800 space-y-6">
+            <div>
+              <p class="font-bold uppercase leading-tight">Your Degree Name / Major</p>
+              <p class="italic">University Name</p>
+              <p class="text-gray-500 mt-1">2012&ndash;2014</p>
+            </div>
+            <div>
+              <p class="font-bold uppercase leading-tight">Your Degree Name / Major</p>
+              <p class="italic">University Name</p>
+              <p class="text-gray-500 mt-1">2010&ndash;2011</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Skills -->
+        <section>
+          <h2 class="font-semibold text-sm tracking-wide uppercase mb-6">Skills</h2>
+          <ul class="list-disc list-inside text-sm space-y-1 text-gray-700">
+            <li>Relevant Skill</li>
+            <li>Relevant Skill</li>
+            <li>Relevant Skill</li>
+            <li>Relevant Skill</li>
+            <li>Relevant Skill</li>
+            <li>Relevant Skill</li>
+            <li>Relevant Skill</li>
+            <li>Relevant Skill</li>
+            <li>Relevant Skill</li>
+            <li>Relevant Skill</li>
+            <li>Relevant Skill</li>
+          </ul>
+        </section>
+
+      </aside>
+
+      <!-- Right Content: Profile, Experience -->
+      <section class="md:col-span-8 space-y-14 text-gray-800 text-sm">
+        
+        <!-- Profile -->
+        <article>
+          <h2 class="font-semibold text-sm tracking-wide uppercase mb-6">Profile</h2>
+          <p class="mb-4">
+            Write a powerful performance summary here. Highlight your most valuable skills, qualifications, achievements, credentials, and other distinguishing information as it relates to and supports your current objective. Integrate keywords and qualifications aligned with the company's specific needs.
+          </p>
+          <p>
+            Show why you are uniquely qualified, focusing on skills or qualifications, industry expertise, companies worked for, degrees, certifications, awards, and/or other professional credentials.
+          </p>
+        </article>
+
+        <!-- Professional Experience -->
+        <article class="space-y-10">
+          <h2 class="font-semibold text-sm tracking-wide uppercase mb-6">Professional Experience</h2>
+
+          <!-- Job Entry Template - repeat 3 times -->
+          <div>
+            <h3 class="font-bold text-sm tracking-wide uppercase mb-1">
+              Write Your Job Title Here
+            </h3>
+            <p class="italic text-gray-600 mb-4">
+              Company Name | City, State | Beginning Date&ndash;End Date
+            </p>
+            <p class="mb-3">
+              In 2 lines, summarize your main responsibilities using past tense and provide information about the organization.
+            </p>
+            <ul class="list-disc list-inside space-y-1 text-gray-700">
+              <li>Beginning with a powerful action verb, write up to six responsibilities and/or accomplishments in the past tense.</li>
+              <li>Highlight your most relevant qualifications for the job by listing them first.</li>
+              <li>Avoid irrelevant experiences.</li>
+              <li>Keep descriptions short but add details that show why you’re a great candidate.</li>
+              <li>Show your accomplishments by using numbers and percentages.</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="font-bold text-sm tracking-wide uppercase mb-1">
+              Write Your Job Title Here
+            </h3>
+            <p class="italic text-gray-600 mb-4">
+              Company Name | City, State | Beginning Date&ndash;End Date
+            </p>
+            <p class="mb-3">
+              In 2 lines, summarize your main responsibilities using past tense and provide information about the organization.
+            </p>
+            <ul class="list-disc list-inside space-y-1 text-gray-700">
+              <li>Beginning with a powerful action verb, write up to six responsibilities and/or accomplishments in the past tense.</li>
+              <li>Highlight your most relevant qualifications for the job by listing them first.</li>
+              <li>Avoid irrelevant experiences.</li>
+              <li>Keep descriptions short but add details that show why you’re a great candidate.</li>
+              <li>Show your accomplishments by using numbers and percentages.</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="font-bold text-sm tracking-wide uppercase mb-1">
+              Write Your Job Title Here
+            </h3>
+            <p class="italic text-gray-600 mb-4">
+              Company Name | City, State | Beginning Date&ndash;End Date
+            </p>
+            <p class="mb-3">
+              In 2 lines, summarize your main responsibilities using past tense and provide information about the organization.
+            </p>
+            <ul class="list-disc list-inside space-y-1 text-gray-700">
+              <li>Beginning with a powerful action verb, write up to six responsibilities and/or accomplishments in the past tense.</li>
+              <li>Avoid irrelevant experiences.</li>
+              <li>Highlight your most relevant qualifications for the job by listing them first.</li>
+              <li>Keep descriptions short but add details that show why you’re a great candidate.</li>
+              <li>Show your accomplishments by using numbers and percentages.</li>
+            </ul>
+          </div>
+
+        </article>
+
+      </section>
+
+    </main>
+
+    <div class="bar"></div>
+
+  </div>
+
+
+  <script>
+    feather.replace()
+  </script>
+</body>
+</html>

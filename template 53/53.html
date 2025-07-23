@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Resume - Name Surname</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<!-- Heroicons CDN for icons -->
+<script src="https://unpkg.com/feather-icons"></script>
+<style>
+  /* Custom progress bar colors for languages */
+  .progress-bg {
+    background-color: #e0e7ff;
+  }
+  .progress-fill {
+    background-color: #3b82f6;
+  }
+</style>
+</head>
+<body class="bg-white text-gray-900 font-sans p-6 md:p-12 max-w-4xl mx-auto">
+
+<header class="mb-8 text-center">
+  <h1 class="text-3xl md:text-4xl font-extrabold tracking-wide uppercase">Name <span class="font-semibold">Surname</span></h1>
+  <p class="text-sm md:text-base text-gray-600 uppercase tracking-widest mt-1">Job Title</p>
+  <hr class="border-gray-300 my-6" />
+  <p class="text-gray-700 text-sm md:text-base max-w-3xl mx-auto leading-relaxed">
+    Experienced and results-driven Education Director with a proven track record of implementing innovative educational programs and driving academic excellence. Adept at strategic planning, team leadership, and fostering collaborative learning environments. Committed to enhancing student success, staff development, and overall institutional growth.
+  </p>
+</header>
+
+<!-- Contact Info -->
+<section class="flex flex-col sm:flex-row justify-center sm:justify-between items-center text-gray-700 gap-4 mb-10 text-sm md:text-base font-medium">
+  <div class="flex items-center gap-2">
+    <i data-feather="phone" class="w-5 h-5 text-blue-600"></i>
+    <span>+1 222 222 222</span>
+  </div>
+  <div class="flex items-center gap-2">
+    <i data-feather="mail" class="w-5 h-5 text-blue-600"></i>
+    <span>name.s@email.co</span>
+  </div>
+  <div class="flex items-center gap-2">
+    <i data-feather="map-pin" class="w-5 h-5 text-blue-600"></i>
+    <span>NY, USA</span>
+  </div>
+</section>
+
+<!-- Languages -->
+<section class="mb-8">
+  <h2 class="uppercase text-xs md:text-sm tracking-widest font-semibold text-gray-500 mb-4">Languages</h2>
+  <div class="space-y-4 max-w-md">
+    <div>
+      <div class="flex justify-between mb-1 font-semibold text-gray-700 text-sm">
+        <span>English</span><span>90%</span>
+      </div>
+      <div class="w-full h-2 progress-bg rounded-full overflow-hidden">
+        <div class="progress-fill h-full rounded-full" style="width: 90%;"></div>
+      </div>
+    </div>
+    <div>
+      <div class="flex justify-between mb-1 font-semibold text-gray-700 text-sm">
+        <span>Spanish</span><span>60%</span>
+      </div>
+      <div class="w-full h-2 progress-bg rounded-full overflow-hidden">
+        <div class="progress-fill h-full rounded-full" style="width: 60%;"></div>
+      </div>
+    </div>
+    <div>
+      <div class="flex justify-between mb-1 font-semibold text-gray-700 text-sm">
+        <span>French</span><span>30%</span>
+      </div>
+      <div class="w-full h-2 progress-bg rounded-full overflow-hidden">
+        <div class="progress-fill h-full rounded-full" style="width: 30%;"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Education -->
+<section class="mb-10">
+  <h2 class="uppercase text-xs md:text-sm tracking-widest font-semibold text-gray-500 mb-6">Education</h2>
+  <div class="space-y-6 max-w-2xl">
+    <div class="flex flex-col sm:flex-row gap-4 sm:gap-12">
+      <div class="min-w-[7rem] text-gray-500 text-xs sm:text-sm tracking-wide">200X - 200X<br/>NY, USA</div>
+      <div>
+        <p class="font-semibold text-gray-900">BA Education</p>
+        <p class="italic text-gray-700">NYU</p>
+      </div>
+    </div>
+    <div class="flex flex-col sm:flex-row gap-4 sm:gap-12">
+      <div class="min-w-[7rem] text-gray-500 text-xs sm:text-sm tracking-wide">200X - 200X<br/>NY, USA</div>
+      <div>
+        <p class="font-semibold text-gray-900">High School Diploma</p>
+        <p class="italic text-gray-700">NYU</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Skills -->
+<section class="mb-10">
+  <h2 class="uppercase text-xs md:text-sm tracking-widest font-semibold text-gray-500 mb-4">Skills</h2>
+  <p class="text-gray-700 text-sm md:text-base font-medium max-w-3xl">
+    <span class="font-semibold">Excel</span> • <span class="font-semibold">Word</span> • <span class="font-semibold">Outlook</span> • Google Drive • Power Point • Team Work • Leadership • Responsibility • Empathy • Stress Management • Creativity
+  </p>
+</section>
+
+<!-- Professional experience -->
+<section>
+  <h2 class="uppercase text-xs md:text-sm tracking-widest font-semibold text-gray-500 mb-8">Professional Experience</h2>
+  <div class="space-y-12 max-w-3xl">
+    <!-- Job 1 -->
+    <article>
+      <div class="flex flex-col sm:flex-row gap-4 sm:gap-12">
+        <div class="min-w-[7rem] text-gray-500 text-xs sm:text-sm tracking-wide">Nov. 200X – Jul. 20XX<br/>NY, USA</div>
+        <div>
+          <p class="font-semibold uppercase text-blue-700">Director of Academic Affairs</p>
+          <p class="italic font-semibold mb-2">ABC University</p>
+          <ul class="list-disc list-inside text-gray-700 text-sm md:text-base space-y-1">
+            <li>Implemented data-driven strategies, resulting in a 15% improvement in student retention rates over two academic years.</li>
+            <li>Led a team of academic advisors, implementing professional development programs that increased their effectiveness in supporting student academic progress.</li>
+          </ul>
+        </div>
+      </div>
+    </article>
+
+    <!-- Job 2 -->
+    <article>
+      <div class="flex flex-col sm:flex-row gap-4 sm:gap-12">
+        <div class="min-w-[7rem] text-gray-500 text-xs sm:text-sm tracking-wide">Nov. 20XX – Jul. 20XX<br/>NY, USA</div>
+        <div>
+          <p class="font-semibold uppercase text-blue-700">Principal</p>
+          <p class="italic font-semibold mb-2">XYZ High School</p>
+          <ul class="list-disc list-inside text-gray-700 text-sm md:text-base space-y-1">
+            <li>Oversaw the day-to-day operations of a high school with over 1,200 students, managing a diverse staff of teachers and administrators.</li>
+            <li>Implemented a comprehensive teacher training program, resulting in a 20% increase in student performance on standardized tests.</li>
+          </ul>
+        </div>
+      </div>
+    </article>
+
+    <!-- Job 3 -->
+    <article>
+      <div class="flex flex-col sm:flex-row gap-4 sm:gap-12">
+        <div class="min-w-[7rem] text-gray-500 text-xs sm:text-sm tracking-wide">Nov. 20XX – Jul. 20XX<br/>NY, USA</div>
+        <div>
+          <p class="font-semibold uppercase text-blue-700">Curriculum Development Specialist</p>
+          <p class="italic font-semibold mb-2">DEF Educational Consulting</p>
+          <ul class="list-disc list-inside text-gray-700 text-sm md:text-base space-y-1">
+            <li>Collaborated with school districts to assess curriculum needs and develop programs.</li>
+            <li>Designed and implemented a STEM curriculum for a K-12 school district, resulting in a 30% increase in student engagement in STEM-related activities.</li>
+          </ul>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<script>
+  feather.replace();
+</script>
+</body>
+</html>
